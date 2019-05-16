@@ -1,11 +1,10 @@
 import React from 'react';
 import styled from 'styled-components';
-import logo from './../logo.svg';
 
 const NavContainer = styled.header`
   display: flex;
   flex-flow: row wrap;
-  justify-content: space-between;
+  justify-content: flex-end;
   margin: 20px;
   padding: 10px;
   width: 100%;
@@ -14,18 +13,13 @@ const NavContainer = styled.header`
 const NavLink = styled.a`
   color: #000;
   text-decoration: none;
-  margin-right: 20px;
+  margin-right: 40px;
   &:hover {
     text-decoration: underline;
   }
   &:last-of-type {
     margin-right: 0;
   }
-`;
-
-const LogoImage = styled.img`
-  height: 20px;
-  margin-right: 20px;
 `;
 
 const LINKS = [
@@ -54,7 +48,6 @@ const LINKS = [
 const Header = () => (
   <NavContainer >
     <nav>
-      <LogoImage src={logo} alt="logo"/>
       {LINKS.map(link => (
         <NavLink
           key={link.href}
