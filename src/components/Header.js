@@ -1,9 +1,18 @@
 import React from 'react';
 import styled from 'styled-components';
+import picture from './MarinaCosta.png';
+import Img from 'react-image'; 
 
-const NavContainer = styled.header`
+const Header = styled.header`
   display: flex;
-  flex-flow: row wrap;
+  flex-wrap: wrap;
+  width: 100%;
+
+`;
+
+const NavContainer = styled.div`
+  display: flex;
+  flex-wrap: wrap;
   justify-content: flex-end;
   margin: 20px;
   padding: 10px;
@@ -22,11 +31,18 @@ const NavLink = styled.a`
   }
 `;
 
+const AuthorInfo = styled.div`
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 10px;
+`;
+
+const Title = styled.h2`
+  color: silver;
+`;
+
 const LINKS = [
-  {
-    label: "About me",
-    href: "#about-me"
-  },
   {
     label: "Projects",
     href: "#projects"
@@ -45,19 +61,26 @@ const LINKS = [
   }
 ];
 
-const Header = () => (
-  <NavContainer >
-    <nav>
-      {LINKS.map(link => (
-        <NavLink
-          key={link.href}
-          href={link.href}
-        >
-          {link.label}
-        </NavLink>
-      ))}
-    </nav>
-  </NavContainer>
+const HeaderContainer = () => (
+  <Header>
+    <Img src={picture} style={{ height: "200px", padding: "10px 50px" }} />
+    <AuthorInfo>
+      <h1>Marina Fróes A. Costa</h1>
+      <Title>Front-End Developer</Title>
+    </AuthorInfo>
+    <NavContainer >
+      <nav>
+        {LINKS.map(link => (
+          <NavLink
+            key={link.href}
+            href={link.href}
+          >
+            {link.label}
+          </NavLink>
+        ))}
+      </nav>
+    </NavContainer>
+  </Header>
 );
 
-export default Header;
+export default HeaderContainer;
