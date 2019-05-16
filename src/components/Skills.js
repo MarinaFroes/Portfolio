@@ -5,7 +5,7 @@ import styled from 'styled-components';
 
 const BarContainer = styled.div`
   height: 400px;
-  width: 500px;
+  width: 100%;
 `;
 
 const skills = [
@@ -34,8 +34,8 @@ const SkillsContainer = () => (
         data={skills}
         keys={['level']}
         indexBy="skill"
-        margin={{ top: 50, right: 80, bottom: 50, left: 100 }}
-        padding={0.3}
+        margin={{ top: 0, right: 80, bottom: 50, left: 100 }}
+        padding={0.7}
         maxValue={100}
         groupMode="grouped"
         layout="horizontal"
@@ -54,22 +54,18 @@ const SkillsContainer = () => (
           legendOffset: 1
         }}
         axisLeft={{
-          tickSize: 5,
+          tickSize: 10,
           tickPadding: 5,
           tickRotation: 0,
           legend: '',
           legendPosition: 'middle',
-          legendOffset: -20
+          legendOffset: 0
         }}
         enableLabel={false}
-        labelSkipWidth={20}
-        labelSkipHeight={30}
-        labelTextColor={{ from: 'color', modifiers: [['darker', 1.6]] }}
+        labelTextColor={{ from: 'color', modifiers: [['darker', 0]] }}
         legends={[]}
         isInteractive={false}
         animate={false}
-        motionStiffness={90}
-        motionDamping={15}
         />
     </BarContainer>
   </Section>
