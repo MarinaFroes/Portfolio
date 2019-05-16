@@ -7,7 +7,9 @@
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-icons": "^3.7.0",
+    "react-image": "^2.1.1",
     "react-scripts": "3.0.1",
+    "react-timeline-scribble": "^1.0.14",
     "styled-components": "^4.2.0"
   },
   "scripts": {
