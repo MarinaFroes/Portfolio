@@ -1,13 +1,27 @@
 import React from 'react';
 import logo from './logo.svg';
 import About from './components/About';
+import Header from './components/Header';
+import SkillsContainer from './components/Skills';
+import styled from 'styled-components';
 import './App.css';
 
+const Main = styled.main`
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+`;
 
 function App() {
   return (
-    <div className="App">
+    <Main className="App">
+      <Header />
       <About />
+      
+      <SkillsContainer />
+      
+      
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
@@ -22,7 +36,7 @@ function App() {
           Learn React
         </a>
       </header>
-    </div>
+    </Main>
   );
 }
 
