@@ -1,10 +1,13 @@
 import React from 'react';
-import logo from './logo.svg';
+import './App.css';
+import styled from 'styled-components';
+
 import About from './components/About';
 import Header from './components/Header';
 import SkillsContainer from './components/Skills';
-import styled from 'styled-components';
-import './App.css';
+import Footer from './components/Footer';
+import Projects from './components/Projects';
+import Timeline from './components/Timeline';
 
 const Main = styled.main`
   display: flex;
@@ -18,24 +21,10 @@ function App() {
     <Main className="App">
       <Header />
       <About />
-      
+      <Projects />
+      <Timeline />
       <SkillsContainer />
-      
-      
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Footer />
     </Main>
   );
 }
