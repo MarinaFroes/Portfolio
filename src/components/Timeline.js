@@ -10,7 +10,7 @@ const TimelineContainer = () => (
         Final Project (in progress): re-implementation and improvement data widgets on IDMC website
       </Event>
       <Event interval={"Feb 2019 – present"} title={"Front-End Web Developer Nanodegree"} subtitle={"Udacity (online)"}>
-        Projects finished: Portfolio webpage, Matching Game, Classic Arcade Game Clone, Feed Reader Testing.
+        Projects finished: Portfolio webpage, Matching Game, Frogger Clone, Feed Reader Testing.
         <br />
         Final Project (in progress): Restaurant reviews app.
       </Event>
