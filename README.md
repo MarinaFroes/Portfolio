@@ -1,5 +1,5 @@
 
-![Logo]('./src/components/images/logo.png') 
+![Logo](./src/components/images/logo.png) 
 # My Portfolio  
 
 ## Introduction
