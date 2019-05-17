@@ -5,7 +5,7 @@ import { Timeline, Event } from 'react-timeline-scribble';
 
 const TimelineContainer = () => (
   <Section heading="Timeline">
-    <Timeline style={{ color: "red", padding: "10px 50px" }}>
+    <Timeline>
       <Event interval={"Feb 2019 – present"} title={"React Course"} subtitle={"ReDI School of Digital Integration gGmbH"}>
         Location: Berlin - Germany
         Curriculum: ES6 Review, Components and Props, State, Lifecycle & Handling Events, Lists & Keys, Forms.
