@@ -2,29 +2,33 @@ import React from 'react';
 import styled from 'styled-components';
 import Section from './Section';
 import Project from './Project';
+import MatchingGame from './images/MatchingGame.png';
+import FroggerClone from './images/FroggerClone.png';
+import Portfolio from './images/PortfolioPlainJS.png';
+import WeatherChecker from './images/WeatherChecker.png';
 
 const PROJECTS_INFO = [
   {
     title: "Frogger Clone",
-    src: "/static/media/FroggerClone.da87e315.png",
+    src: `${FroggerClone}`,
     alt: "Screenshot of the Frogger Clone Project",
     link: "https://marinafroes.github.io/FEND-project3-Arcade-Game-Clone/"
   },
   {
     title: "Matching Game",
-    src: "/static/media/MatchingGame.dac07dd2.png",
+    src: `${MatchingGame}`,
     alt: "Screenshot of the Matching Game Project",
     link: "https://marinafroes.github.io/FEND-project2-Matching-Game/"
   },
   {
     title: "Portfolio Project",
-    src: "/static/media/PortfolioPlainJS.6dbf2d3d.png",
+    src: `${Portfolio}`,
     alt: "Screenshot of the Vanilla JS Portfolio",
     link: "https://marinafroes.github.io/FEND-project1-Portfolio/"
   },
   {
     title: "Weather Checker",
-    src: "/static/media/WeatherChecker.6108e02d.png",
+    src: `${WeatherChecker}`,
     alt: "Screenshot of the Weather Checker Project",
     link: "https://marinafroes.github.io/Check-Weather/"
   }
