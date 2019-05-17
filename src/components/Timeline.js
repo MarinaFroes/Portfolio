@@ -7,7 +7,7 @@ const TimelineContainer = () => (
     <Timeline>
       <Event interval={"Feb 2019 – present"} title={"React Course"} subtitle={"ReDI School of Digital Integration gGmbH"}>
         Location: Berlin - Germany
-        Final Project (in progress): re-implementation and improvement data widgets on IDMC website
+        Final Project (in progress): re-implementation and improvement of data widgets on IDMC website
       </Event>
       <Event interval={"Feb 2019 – present"} title={"Front-End Web Developer Nanodegree"} subtitle={"Udacity (online)"}>
         Projects finished: Portfolio webpage, Matching Game, Frogger Clone, Feed Reader Testing.
