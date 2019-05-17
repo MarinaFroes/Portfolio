@@ -16,13 +16,12 @@ const SocialMediaContainer = styled.div`
   padding: 30px;
 `;
 
-const Footer = ({ phoneNumber, email }) => (
+const Footer = ({ email }) => (
   <Section heading="Contact">
     <Contacts>
       <p>
-        <strong>Phone: </strong>
-        {phoneNumber} - <strong>E-mail: </strong>
-        <a href={email}>{email}</a>
+        <strong>E-mail: </strong>
+        <a href={`mailto:${email}`}>{email}</a>
       </p>
       <SocialMediaContainer>
         <SocialMedia icon={<FaGithub />} address="https://github.com/MarinaFroes" />
@@ -31,5 +30,6 @@ const Footer = ({ phoneNumber, email }) => (
     </Contacts>
   </Section>
 );
+
 
 export default Footer;
