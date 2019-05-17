@@ -6,7 +6,7 @@ import About from './components/About';
 import Header from './components/Header';
 import SkillsContainer from './components/Skills';
 import Footer from './components/Footer';
-import Projects from './components/Projects';
+import ProjectsContainer from './components/ProjectsContainer';
 import Timeline from './components/Timeline';
 
 const Main = styled.main`
@@ -21,11 +21,12 @@ function App() {
     <Main className="App">
       <Header />
       <About />
-      <Projects />
+      <ProjectsContainer />
       <Timeline />
       <SkillsContainer />
       <Footer
-        phoneNumber="+49 1512 9896445" email="facosta.marina@gmail.com"
+        phoneNumber="+49 1512 9896445"
+        email="facosta.marina@gmail.com"
       />
     </Main>
   );
