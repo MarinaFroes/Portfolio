@@ -1,73 +1,89 @@
 import React from 'react';
-import { ResponsiveBar } from "@nivo/bar";
 import Section from './Section';
 import styled from 'styled-components';
+import { FaReact, FaCss3Alt, FaHtml5, FaJsSquare } from "react-icons/fa";
 
-const BarContainer = styled.div`
-  height: 400px;
-  width: 100%;
+
+const SKILLS = [
+  {
+    "name": "React",
+    "level": "40%",
+    "icon": <FaReact />
+  },
+  {
+    "name": "JavaScript",
+    "level": "50%",
+    "icon": <FaJsSquare />
+  },
+  {
+    "name": "CSS",
+    "level": "60%",
+    "icon": <FaCss3Alt />
+  },
+  {
+    "name": "HTML",
+    "level": "65%",
+    "icon": <FaHtml5 />
+  }
+];
+
+
+const SkillIcon = styled.div`
+  font-size: 35px;
+  color: silver;
+  padding: 10px;
 `;
 
-const skills = [
-  {
-    "skill": "React",
-    "level": 40
-  },
-  {
-    "skill": "JavaScript",
-    "level": 50
-  },
-  {
-    "skill": "CSS",
-    "level": 60
-  },
-  {
-    "skill": "HTML",
-    "level": 65
-  },
-]
+const SkillTitle = styled.h3`
+  font-size: 20px;
+  text-transform: uppercase;
+  color: silver;
+  padding: 10px;
+  width: 15%;
+`;
+
+const SkillDiv = styled.div`
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  border: 3px solid red;
+`;
+
+const Bar = styled.div`
+  display: flex;
+  border: 2px solid black;
+  border-radius: 8px;
+  width: 80%;
+  height: 30px;
+`;
+
+const Level = styled.div`
+  width: ${props => props.level};
+  height: 100%;
+  background-color: silver;
+`;
+
+const SkillsSection = styled.div`
+  display: flex;
+  flex-direction: column;
+  width: 100%
+  border: 3px solid green;
+`;
 
 const SkillsContainer = () => (
   <Section heading="Skills">
-    <BarContainer>
-      <ResponsiveBar
-        data={skills}
-        keys={['level']}
-        indexBy="skill"
-        margin={{ top: 0, right: 80, bottom: 50, left: 100 }}
-        padding={0.7}
-        maxValue={100}
-        groupMode="grouped"
-        layout="horizontal"
-        colors={{ scheme: 'category10' }}
-        borderWidth={2}
-        borderColor={{ from: 'color', modifiers: [['darker', 1.6]] }}
-        borderRadius={9}
-        axisTop={null}
-        axisRight={null}
-        axisBottom={{
-          tickSize: 10,
-          tickPadding: 2,
-          tickRotation: 0,
-          legend: '',
-          legendPosition: 'middle',
-          legendOffset: 1
-        }}
-        axisLeft={{
-          tickSize: 10,
-          tickPadding: 5,
-          tickRotation: 0,
-          legend: '',
-          legendPosition: 'middle',
-          legendOffset: 0
-        }}
-        enableLabel={false}
-        labelTextColor={{ from: 'color', modifiers: [['darker', 0]] }}
-        legends={[]}
-        isInteractive={false}
-        animate={false}
-        />
-    </BarContainer>
+    <SkillsSection>
+      {SKILLS.map(skill => (
+        <SkillDiv key={skill.name}>
+          <SkillIcon>{skill.icon}</SkillIcon>
+          <SkillTitle>{skill.name}</SkillTitle>
+          <Bar>
+            <Level level={skill.level} />
+          </Bar>
+        </SkillDiv>
+      ))}
+    </SkillsSection>
   </Section>
 );
 
