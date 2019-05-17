@@ -3,7 +3,6 @@ import Section from './Section';
 import styled from 'styled-components';
 import { FaReact, FaCss3Alt, FaHtml5, FaJsSquare } from "react-icons/fa";
 
-
 const SKILLS = [
   {
     "name": "React",
@@ -26,7 +25,6 @@ const SKILLS = [
     "icon": <FaHtml5 />
   }
 ];
-
 
 const SkillIcon = styled.div`
   font-size: 35px;
@@ -54,7 +52,7 @@ const Bar = styled.div`
   display: flex;
   border: 2px solid silver;
   border-radius: 8px;
-  width: 600px;
+  flex-basis: 600px;
   height: 20px;
 `;
 
