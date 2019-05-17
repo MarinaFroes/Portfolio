@@ -35,6 +35,13 @@ const AuthorInfo = styled.div`
   flex-direction: column;
   width: 100%;
   padding: 10px 10px 10px 50px;
+
+  @media only screen and (max-width: 600px){
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0;
+  }
 `;
 
 const Image = styled.img`
@@ -81,7 +88,7 @@ const HeaderContainer = () => (
     </NavContainer>
     
     <AuthorInfo>
-      <Image src={picture} alt="" />
+      <Image src={picture} alt="Profile picture" />
       <h1>Marina Fróes A. Costa</h1>
       <Title>Front-End Developer</Title>
     </AuthorInfo>
