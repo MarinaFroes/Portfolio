@@ -16,6 +16,8 @@
 
 .css-vcfpfv {
   background-color: silver !important;
+  transform: rotate(0deg) !important;
+  border-radius: 50%;
 }
 .css-1b3lipl::before {
   background-color: silver !important;
