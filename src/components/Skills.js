@@ -7,22 +7,22 @@ import { FaReact, FaCss3Alt, FaHtml5, FaJsSquare } from "react-icons/fa";
 const SKILLS = [
   {
     "name": "React",
-    "level": "40%",
+    "level": "30%",
     "icon": <FaReact />
   },
   {
     "name": "JavaScript",
-    "level": "50%",
+    "level": "40%",
     "icon": <FaJsSquare />
   },
   {
     "name": "CSS",
-    "level": "60%",
+    "level": "50%",
     "icon": <FaCss3Alt />
   },
   {
     "name": "HTML",
-    "level": "65%",
+    "level": "55%",
     "icon": <FaHtml5 />
   }
 ];
