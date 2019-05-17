@@ -21,7 +21,7 @@ const PROJECTS_INFO = [
     link: "https://marinafroes.github.io/FEND-project2-Matching-Game/"
   },
   {
-    title: "Portfolio Project",
+    title: "Portfolio webpage",
     src: `${Portfolio}`,
     alt: "Screenshot of the Vanilla JS Portfolio",
     link: "https://marinafroes.github.io/FEND-project1-Portfolio/"
