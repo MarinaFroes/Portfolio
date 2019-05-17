@@ -25,7 +25,6 @@ function App() {
       <Timeline />
       <SkillsContainer />
       <Footer
-        phoneNumber="+49 1512 9896445"
         email="facosta.marina@gmail.com"
       />
     </Main>
