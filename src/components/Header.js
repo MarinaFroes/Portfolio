@@ -63,11 +63,6 @@ const LINKS = [
 
 const HeaderContainer = () => (
   <Header>
-    <Img src={picture} style={{ height: "200px", padding: "10px 50px" }} />
-    <AuthorInfo>
-      <h1>Marina Fróes A. Costa</h1>
-      <Title>Front-End Developer</Title>
-    </AuthorInfo>
     <NavContainer >
       <nav>
         {LINKS.map(link => (
@@ -80,6 +75,12 @@ const HeaderContainer = () => (
         ))}
       </nav>
     </NavContainer>
+    <Img src={picture} style={{ height: "200px", padding: "10px 50px" }} />
+    <AuthorInfo>
+      <h1>Marina Fróes A. Costa</h1>
+      <Title>Front-End Developer</Title>
+    </AuthorInfo>
+    
   </Header>
 );
 
