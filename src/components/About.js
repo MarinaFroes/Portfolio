@@ -2,6 +2,11 @@ import React from 'react';
 import styled from 'styled-components';
 import Section from './Section';
 import Info from './Info';
+import arch from './images/arch.svg';
+import languages from './images/languages.svg';
+import berlin from './images/berlin.svg';
+import brazil from './images/brazil.svg';
+import art from './images/art.svg';
 
 const AboutSection = styled.div`
   display: flex;
@@ -13,31 +18,31 @@ const AboutSection = styled.div`
 const ABOUT_INFOS = [
   {
     title: "Living",
-    src: "/static/media/berlin.58b3e57b.svg",
+    src: `${berlin}`,
     alt: "",
     subtitle: "Berlin - DE"
   },
   {
     title: "From",
-    src: "/static/media/brazil.d927fc3d.svg",
+    src: `${brazil}`,
     alt: "",
     subtitle: "Salvador - BR"
   },
   {
     title: "Background",
-    src: "/static/media/arch.9dd105b2.svg",
+    src: `${arch}`,
     alt: "",
     subtitle: "Architecture"
   },
   {
     title: "Hobbies",
-    src: "/static/media/art.aabdc549.svg",
+    src: `${art}`,
     alt: "",
     subtitle: "Arts & Crafts"
   },
   {
     title: "Languages",
-    src: "/static/media/languages.a49b7d60.svg",
+    src: `${languages}`,
     alt: "",
     subtitle: "PT(C2) - EN(B2)"
   }
