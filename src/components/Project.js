@@ -23,8 +23,8 @@ const ProjectTitle = styled.a`
 const Image = styled.img`
   height: 200px;
   width: 200px;
-  border-radius: 5px;
   padding: 10px;
+  border: 1px solid #e6e6e6;
 `;
 
 const Project = ({ title, src, alt, link }) => (
