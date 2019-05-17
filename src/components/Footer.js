@@ -12,6 +12,10 @@ const Contacts = styled.footer`
   width: 100%;
 `;
 
+const SocialMediaContainer = styled.div`
+  padding: 30px;
+`;
+
 const Footer = ({ phoneNumber, email }) => (
   <Section heading="Contact">
     <Contacts>
@@ -20,10 +24,10 @@ const Footer = ({ phoneNumber, email }) => (
         {phoneNumber} - <strong>E-mail: </strong>
         <a href={email}>{email}</a>
       </p>
-      <div>
+      <SocialMediaContainer>
         <SocialMedia icon={<FaGithub />} address="https://github.com/MarinaFroes" />
         <SocialMedia icon={<FaLinkedin />} address="https://www.linkedin.com/in/marina-froes-a-costa/" />
-      </div>
+      </SocialMediaContainer>
     </Contacts>
   </Section>
 );
