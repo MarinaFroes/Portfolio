@@ -39,23 +39,23 @@ const SkillTitle = styled.h3`
   text-transform: uppercase;
   color: silver;
   padding: 10px;
-  width: 15%;
+  width: 150px;
 `;
 
 const SkillDiv = styled.div`
   display: flex;
   justify-content: flex-start;
   align-items: center;
+  flex-flow: row wrap;
   width: 100%;
-  border: 3px solid red;
 `;
 
 const Bar = styled.div`
   display: flex;
-  border: 2px solid black;
+  border: 2px solid silver;
   border-radius: 8px;
-  width: 80%;
-  height: 30px;
+  width: 600px;
+  height: 20px;
 `;
 
 const Level = styled.div`
@@ -67,8 +67,7 @@ const Level = styled.div`
 const SkillsSection = styled.div`
   display: flex;
   flex-direction: column;
-  width: 100%
-  border: 3px solid green;
+  width: 100%;
 `;
 
 const SkillsContainer = () => (
