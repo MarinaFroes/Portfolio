@@ -5,6 +5,7 @@
   "dependencies": {
     "@nivo/bar": "^0.57.0",
     "react": "^16.8.6",
+    "react-animations": "^1.0.0",
     "react-dom": "^16.8.6",
     "react-icons": "^3.7.0",
     "react-image": "^2.1.1",
