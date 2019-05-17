@@ -13,6 +13,11 @@ const ProjectTitle = styled.a`
   font-size: 20px;
   color: silver;
   text-transform: uppercase;
+  font-weight: bold;
+  text-decoration: none;
+  &:hover { 
+  text-decoration: underline;
+  }
 `;
 
 const Image = styled.img`
