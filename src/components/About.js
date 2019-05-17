@@ -1,22 +1,30 @@
 import React from 'react';
 import styled from 'styled-components';
 import Section from './Section';
+import Info from './Info';
+import arch from './images/arch.svg';
+import berlin from './images/berlin.svg';
+import brazil from './images/brazil.svg';
+import art from './images/art.svg';
+import languages from './images/languages.svg';
 
-const TextContent = styled.p`
-  font-size: 20px;
-  padding: 20px;
+const AboutSection = styled.div`
+  display: flex;
+  justify-content: space-evenly;
+  flex-flow: row wrap;
+  border: 3px solid red;
+  width: 100%;
 `;
 
 const About = () => (
   <Section heading="About Me">
-      <TextContent>
-        I'm a Building Architect from Brazil who is currently living in Berlin, Germany. 
-        When I moved abroad I decided to start over again and redraw my career changing my goals to live new experiences. That is why I started to learn programming and I have been studying since then.
-        <br />
-        I use front end technologies like JavaScript, CSS and HTML and I started to learn frontend frameworks and libraries like React.
-        <br />
-        Currently, I'm a ReDI School of Digital Integration student (React Course) and I'm also doing the Udacity Front-End Nanodegree to improve my skills.
-      </TextContent>
+    <AboutSection>
+      <Info title="Living" src={berlin} alt="" subtitle="Berlin - DE" />
+      <Info title="From" src={brazil} alt="" subtitle="Salvador - BR" />
+      <Info title="Background" src={arch} alt="" subtitle="Architecture" />
+      <Info title="Hobbies" src={art} alt="" subtitle="Arts & Crafts" />
+      <Info title="Languages" src={languages} alt="" subtitle="PT (Native) - EN (B2)" />
+    </AboutSection>
   </Section>
 );
 
