@@ -1,33 +1,34 @@
 import React from 'react';
 import styled from 'styled-components';
-import picture from './MarinaCosta.png';
-import Img from 'react-image'; 
+import picture from './MarinaCosta.png'; 
 
 const Header = styled.header`
   display: flex;
+  flex-direction: row-reverse;
   flex-wrap: wrap;
+  margin: 0;
   width: 100%;
-
+  border: 5px solid red;
 `;
 
 const NavContainer = styled.div`
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-end;
-  margin: 20px;
   padding: 10px;
   width: 100%;
+  border: 3px solid green;
 `;
 
 const NavLink = styled.a`
   color: #000;
   text-decoration: none;
-  margin-right: 40px;
+  margin-right: 20px;
   &:hover {
     text-decoration: underline;
   }
   &:last-of-type {
-    margin-right: 0;
+    margin-right: 40;
   }
 `;
 
@@ -35,7 +36,14 @@ const AuthorInfo = styled.div`
   display: flex;
   flex-direction: column;
   width: 100%;
-  padding: 10px;
+  padding: 10px 10px 10px 50px;
+  border: 3px solid blue;
+`;
+
+const Image = styled.img`
+  width: 200px;
+  height: auto;
+
 `;
 
 const Title = styled.h2`
@@ -75,8 +83,9 @@ const HeaderContainer = () => (
         ))}
       </nav>
     </NavContainer>
-    <Img src={picture} style={{ height: "200px", padding: "10px 50px" }} />
+    
     <AuthorInfo>
+      <Image src={picture} alt="" />
       <h1>Marina Fróes A. Costa</h1>
       <Title>Front-End Developer</Title>
     </AuthorInfo>
