@@ -2,11 +2,6 @@ import React from 'react';
 import styled from 'styled-components';
 import Section from './Section';
 import Info from './Info';
-// import arch from './images/arch.svg';
-// import berlin from './images/berlin.svg';
-// import brazil from './images/brazil.svg';
-// import art from './images/art.svg';
-// import languages from './images/languages.svg';
 
 const AboutSection = styled.div`
   display: flex;
@@ -46,8 +41,7 @@ const ABOUT_INFOS = [
     src: "/static/media/languages.a49b7d60.svg",
     alt: "",
     subtitle: "PT(C2) - EN(B2)"
-  },
-
+  }
 ];
 
 const About = () => (
