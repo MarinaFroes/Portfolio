@@ -8,7 +8,6 @@ const Header = styled.header`
   flex-wrap: wrap;
   margin: 0;
   width: 100%;
-  border: 5px solid red;
 `;
 
 const NavContainer = styled.div`
@@ -17,7 +16,6 @@ const NavContainer = styled.div`
   justify-content: flex-end;
   padding: 10px;
   width: 100%;
-  border: 3px solid green;
 `;
 
 const NavLink = styled.a`
@@ -37,13 +35,11 @@ const AuthorInfo = styled.div`
   flex-direction: column;
   width: 100%;
   padding: 10px 10px 10px 50px;
-  border: 3px solid blue;
 `;
 
 const Image = styled.img`
   width: 200px;
   height: auto;
-
 `;
 
 const Title = styled.h2`

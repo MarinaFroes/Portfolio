@@ -20,7 +20,6 @@ const Image = styled.img`
   width: 100px;
   border-radius: 5px;
   padding: 10px;
-  coolor: red;
 `;
 
 const InfoSubtitle = styled.p`

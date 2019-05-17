@@ -25,7 +25,6 @@ const Image = styled.img`
   width: 200px;
   border-radius: 5px;
   padding: 10px;
-  coolor: red;
 `;
 
 const Project = ({ title, src, alt, link }) => (

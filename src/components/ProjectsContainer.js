@@ -34,7 +34,6 @@ const ProjectsSection = styled.div`
   display: flex;
   justify-content: space-evenly;
   flex-flow: row wrap;
-  border: 3px solid red;
   width: 100%;
 `;
 
