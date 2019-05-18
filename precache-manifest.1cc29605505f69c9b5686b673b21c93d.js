@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e25cb9aaa7a310de20ec8f869d50a4c9",
+    "revision": "8c7f78f30b72a325b6c9d84a7c09ddd7",
     "url": "/Portfolio/index.html"
   },
   {
-    "revision": "f019201de567aaa9fe8f",
+    "revision": "4658ddd61450a52ac5af",
     "url": "/Portfolio/static/css/main.f34c7617.chunk.css"
   },
   {
@@ -12,32 +12,32 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Portfolio/static/js/2.5901b701.chunk.js"
   },
   {
-    "revision": "f019201de567aaa9fe8f",
-    "url": "/Portfolio/static/js/main.cf889140.chunk.js"
+    "revision": "4658ddd61450a52ac5af",
+    "url": "/Portfolio/static/js/main.5de56a80.chunk.js"
   },
   {
     "revision": "6b64d540f1308ee928ad",
     "url": "/Portfolio/static/js/runtime~main.132fbc8c.js"
   },
   {
-    "revision": "aec63b7b88bb60db37e0640882ff9482",
-    "url": "/Portfolio/static/media/FroggerClone.aec63b7b.png"
+    "revision": "e78c359d10cb2ff4bb294b0a438f99cd",
+    "url": "/Portfolio/static/media/FroggerClone.e78c359d.png"
   },
   {
     "revision": "72552d06fc5d49df98630e5bec91e1db",
     "url": "/Portfolio/static/media/MarinaCosta.72552d06.png"
   },
   {
-    "revision": "491c07c518bf36187204c87fa1143d99",
-    "url": "/Portfolio/static/media/MatchingGame.491c07c5.png"
+    "revision": "8121459a157428409e2b24125071cb18",
+    "url": "/Portfolio/static/media/MatchingGame.8121459a.png"
   },
   {
-    "revision": "6dbf2d3de29f841978effa039d70ac72",
-    "url": "/Portfolio/static/media/PortfolioPlainJS.6dbf2d3d.png"
+    "revision": "9339c59e55642322e97d29c6e3ff1cc6",
+    "url": "/Portfolio/static/media/PortfolioPlainJS.9339c59e.png"
   },
   {
-    "revision": "6108e02dff59be746ef28ef2be6326a7",
-    "url": "/Portfolio/static/media/WeatherChecker.6108e02d.png"
+    "revision": "0bce0299e12c9d30c756b2e4e66f01d4",
+    "url": "/Portfolio/static/media/WeatherChecker.0bce0299.png"
   },
   {
     "revision": "9dd105b23777356982034d44dba22f33",
