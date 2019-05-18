@@ -39,7 +39,7 @@ const ABOUT_INFOS = [
     title: 'Looking for',
     src: `${lookingfor}`,
     alt: '',
-    subtitle: 'Learning more'
+    subtitle: '1st IT role'
   },
   {
     title: 'Hobbies',
