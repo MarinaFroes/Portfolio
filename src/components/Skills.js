@@ -22,7 +22,7 @@ const SKILLS = [
   },
   {
     name: 'HTML',
-    level: '55%',
+    level: '60%',
     icon: <FaHtml5 />
   }
 ];
