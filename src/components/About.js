@@ -1,12 +1,13 @@
 import React from 'react';
 import styled from 'styled-components';
+
 import Section from './Section';
 import Info from './Info';
 import arch from './images/arch.svg';
-import languages from './images/languages.svg';
 import berlin from './images/berlin.svg';
 import brazil from './images/brazil.svg';
 import art from './images/art.svg';
+import lookingfor from './images/lookingfor.svg';
 
 const AboutSection = styled.div`
   display: flex;
@@ -17,34 +18,34 @@ const AboutSection = styled.div`
 
 const ABOUT_INFOS = [
   {
-    title: "Living",
+    title: 'Living',
     src: `${berlin}`,
-    alt: "",
-    subtitle: "Berlin - DE"
+    alt: '',
+    subtitle: 'Berlin - DE'
   },
   {
-    title: "From",
+    title: 'From',
     src: `${brazil}`,
-    alt: "",
-    subtitle: "Salvador - BR"
+    alt: '',
+    subtitle: 'Salvador - BR'
   },
   {
-    title: "Background",
+    title: 'Background',
     src: `${arch}`,
-    alt: "",
-    subtitle: "Architecture"
+    alt: '',
+    subtitle: 'Architecture'
   },
   {
-    title: "Hobbies",
+    title: 'Looking for',
+    src: `${lookingfor}`,
+    alt: '',
+    subtitle: 'Learning more'
+  },
+  {
+    title: 'Hobbies',
     src: `${art}`,
-    alt: "",
-    subtitle: "Arts & Crafts"
-  },
-  {
-    title: "Languages",
-    src: `${languages}`,
-    alt: "",
-    subtitle: "PT(C2) - EN(B2)"
+    alt: '',
+    subtitle: 'Arts & Crafts'
   }
 ];
 

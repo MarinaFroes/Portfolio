@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
-import picture from './MarinaCosta.png'; 
+
+import picture from './images/MarinaCosta.png'; 
 
 const Header = styled.header`
   display: flex;
@@ -55,24 +56,24 @@ const Title = styled.h2`
 
 const LINKS = [
   {
-    label: "Projects",
-    href: "#projects"
+    label: 'Projects',
+    href: '#projects'
   },
   {
-    label: "Skills",
-    href: "#skills"
+    label: 'Skills',
+    href: '#skills'
   },
   {
-    label: "Timeline",
-    href: "#timeline"
+    label: 'Timeline',
+    href: '#timeline'
   },
   {
-    label: "Contact",
-    href: "#contact"
+    label: 'Contact',
+    href: '#contact'
   }
 ];
 
-const HeaderContainer = () => (
+const HeaderContainer = ({ name, occupation}) => (
   <Header>
     <NavContainer >
       <nav>

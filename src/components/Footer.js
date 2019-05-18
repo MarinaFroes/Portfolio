@@ -1,8 +1,9 @@
 import React from 'react';
+import styled from 'styled-components';
+import { FaGithub, FaLinkedin, FaAt } from 'react-icons/fa';
+
 import Section from './Section';
 import SocialMedia from './SocialMedia';
-import { FaGithub, FaLinkedin, FaAt } from "react-icons/fa";
-import styled from "styled-components";
 
 const Contacts = styled.footer`
   display: flex;
@@ -16,7 +17,7 @@ const SocialMediaContainer = styled.div`
   padding: 30px;
 `;
 
-const Footer = ({ email }) => (
+const Footer = ({ email, github, linkedin }) => (
   <Section heading="Contact">
     <Contacts>
       <p>
@@ -24,12 +25,11 @@ const Footer = ({ email }) => (
       </p>
       <SocialMediaContainer>
         <SocialMedia icon={<FaAt />} address={`mailto:${email}`} />
-        <SocialMedia icon={<FaGithub />} address="https://github.com/MarinaFroes" />
-        <SocialMedia icon={<FaLinkedin />} address="https://www.linkedin.com/in/marina-froes-a-costa/" />
+        <SocialMedia icon={<FaGithub />} address={github} />
+        <SocialMedia icon={<FaLinkedin />} address={linkedin} />
       </SocialMediaContainer>
     </Contacts>
   </Section>
 );
-
 
 export default Footer;

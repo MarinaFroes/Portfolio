@@ -1,28 +1,29 @@
 import React from 'react';
-import Section from './Section';
 import styled from 'styled-components';
-import { FaReact, FaCss3Alt, FaHtml5, FaJsSquare } from "react-icons/fa";
+import { FaReact, FaCss3Alt, FaHtml5, FaJsSquare } from 'react-icons/fa';
+
+import Section from './Section';
 
 const SKILLS = [
   {
-    "name": "React",
-    "level": "30%",
-    "icon": <FaReact />
+    name: 'React',
+    level: '30%',
+    icon: <FaReact />
   },
   {
-    "name": "JavaScript",
-    "level": "40%",
-    "icon": <FaJsSquare />
+    name: 'JavaScript',
+    level: '40%',
+    icon: <FaJsSquare />
   },
   {
-    "name": "CSS",
-    "level": "50%",
-    "icon": <FaCss3Alt />
+    name: 'CSS',
+    level: '50%',
+    icon: <FaCss3Alt />
   },
   {
-    "name": "HTML",
-    "level": "55%",
-    "icon": <FaHtml5 />
+    name: 'HTML',
+    level: '55%',
+    icon: <FaHtml5 />
   }
 ];
 
@@ -56,16 +57,16 @@ const Bar = styled.div`
   height: 20px;
 `;
 
-const Level = styled.div`
-  width: ${props => props.level};
-  height: 100%;
-  background-color: silver;
-`;
-
 const SkillsSection = styled.div`
   display: flex;
   flex-direction: column;
   width: 100%;
+`;
+
+const Level = styled.div`
+  width: ${props => props.level};
+  height: 100%;
+  background-color: silver;
 `;
 
 const SkillsContainer = () => (
@@ -85,3 +86,5 @@ const SkillsContainer = () => (
 );
 
 export default SkillsContainer;
+
+
