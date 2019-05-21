@@ -1,43 +1,42 @@
-import React from 'react';
-import styled from 'styled-components';
+import React from "react";
+import styled from "styled-components";
 
 const ProjectSection = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 20px;
+  margin: 10px;
 `;
 
-const ProjectTitle = styled.a`
-  font-size: 20px;
-  color: silver;
-  text-transform: uppercase;
-  font-weight: bold;
+const ProjectLink = styled.a`
   text-decoration: none;
-  &:hover { 
-  text-decoration: underline;
+  color: silver;
+  &:hover {
+    text-decoration: underline;
   }
 `;
 
 const Image = styled.img`
-  height: 200px;
-  width: 200px;
+  height: 250px;
+  width: 250px;
   padding: 10px;
   border: 1px solid #e6e6e6;
 `;
 
-const Project = ({ title, src, alt, link }) => (
-  <ProjectSection >
-    <ProjectTitle
-      href={link}
-      target="_blank"
-      rel="noopener noreferrer"
-    >
-      {title}
-    </ProjectTitle>
-    <Image src={src} alt={alt} />
+const ProjectTitle = styled.p`
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
+`;
 
+const Project = ({ title, src, alt, link }) => (
+  <ProjectSection>
+    <ProjectLink href={link} target="_blank" rel="noopener noreferrer">
+      <ProjectTitle>{title}</ProjectTitle>
+      <Image src={src} alt={alt} />
+    </ProjectLink>
   </ProjectSection>
 );
 
