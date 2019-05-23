@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 
-import picture from './images/MarinaCosta.png'; 
+import picture from './images/MarinaCosta.jpg'; 
 
 const Header = styled.header`
   display: flex;
@@ -48,6 +48,7 @@ const AuthorInfo = styled.div`
 const Image = styled.img`
   width: 200px;
   height: auto;
+  border-radius: 50%;
 `;
 
 const Title = styled.h2`
@@ -73,7 +74,7 @@ const LINKS = [
   }
 ];
 
-const HeaderContainer = ({ name, occupation}) => (
+const HeaderContainer = () => (
   <Header>
     <NavContainer >
       <nav>
