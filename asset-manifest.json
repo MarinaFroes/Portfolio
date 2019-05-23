@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.f34c7617.chunk.css",
-    "main.js": "/Portfolio/static/js/main.cddedc66.chunk.js",
-    "main.js.map": "/Portfolio/static/js/main.cddedc66.chunk.js.map",
+    "main.js": "/Portfolio/static/js/main.1897324b.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.1897324b.chunk.js.map",
     "runtime~main.js": "/Portfolio/static/js/runtime~main.132fbc8c.js",
     "runtime~main.js.map": "/Portfolio/static/js/runtime~main.132fbc8c.js.map",
     "static/js/2.5901b701.chunk.js": "/Portfolio/static/js/2.5901b701.chunk.js",
     "static/js/2.5901b701.chunk.js.map": "/Portfolio/static/js/2.5901b701.chunk.js.map",
     "index.html": "/Portfolio/index.html",
-    "precache-manifest.98f37aab014578552c4342686749b687.js": "/Portfolio/precache-manifest.98f37aab014578552c4342686749b687.js",
+    "precache-manifest.eb5753aed561aed3e0679c86cb6ec8d6.js": "/Portfolio/precache-manifest.eb5753aed561aed3e0679c86cb6ec8d6.js",
     "service-worker.js": "/Portfolio/service-worker.js",
     "static/css/main.f34c7617.chunk.css.map": "/Portfolio/static/css/main.f34c7617.chunk.css.map",
     "static/media/FroggerClone.png": "/Portfolio/static/media/FroggerClone.e78c359d.png",
-    "static/media/MarinaCosta.png": "/Portfolio/static/media/MarinaCosta.72552d06.png",
+    "static/media/MarinaCosta.jpg": "/Portfolio/static/media/MarinaCosta.d44f7a87.jpg",
     "static/media/MatchingGame.png": "/Portfolio/static/media/MatchingGame.8121459a.png",
     "static/media/PortfolioPlainJS.png": "/Portfolio/static/media/PortfolioPlainJS.9339c59e.png",
     "static/media/WeatherChecker.png": "/Portfolio/static/media/WeatherChecker.0bce0299.png",
@@ -20,6 +20,6 @@
     "static/media/art.svg": "/Portfolio/static/media/art.aabdc549.svg",
     "static/media/berlin.svg": "/Portfolio/static/media/berlin.58b3e57b.svg",
     "static/media/brazil.svg": "/Portfolio/static/media/brazil.d927fc3d.svg",
-    "static/media/lookingfor.svg": "/Portfolio/static/media/lookingfor.b5bd13ef.svg"
+    "static/media/lookingfor.svg": "/Portfolio/static/media/lookingfor.0d9e8728.svg"
   }
 }

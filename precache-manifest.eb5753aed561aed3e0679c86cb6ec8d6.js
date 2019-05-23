@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "356dc29debed42ee633f2e0ddc5b74dd",
+    "revision": "40cb754324080b20ad2652a07a314609",
     "url": "/Portfolio/index.html"
   },
   {
-    "revision": "0bbdc9ae224b2bd7c21b",
+    "revision": "5b49cfbf85990091cb15",
     "url": "/Portfolio/static/css/main.f34c7617.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Portfolio/static/js/2.5901b701.chunk.js"
   },
   {
-    "revision": "0bbdc9ae224b2bd7c21b",
-    "url": "/Portfolio/static/js/main.cddedc66.chunk.js"
+    "revision": "5b49cfbf85990091cb15",
+    "url": "/Portfolio/static/js/main.1897324b.chunk.js"
   },
   {
     "revision": "6b64d540f1308ee928ad",
@@ -24,8 +24,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Portfolio/static/media/FroggerClone.e78c359d.png"
   },
   {
-    "revision": "72552d06fc5d49df98630e5bec91e1db",
-    "url": "/Portfolio/static/media/MarinaCosta.72552d06.png"
+    "revision": "d44f7a87b591f9c7a0911c3ff4f896c2",
+    "url": "/Portfolio/static/media/MarinaCosta.d44f7a87.jpg"
   },
   {
     "revision": "8121459a157428409e2b24125071cb18",
@@ -56,7 +56,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Portfolio/static/media/brazil.d927fc3d.svg"
   },
   {
-    "revision": "b5bd13efc0d0c70ad5293b53e696c85d",
-    "url": "/Portfolio/static/media/lookingfor.b5bd13ef.svg"
+    "revision": "0d9e87285c8ebcfd7ce88eb33d2ddfb3",
+    "url": "/Portfolio/static/media/lookingfor.0d9e8728.svg"
   }
 ]);
