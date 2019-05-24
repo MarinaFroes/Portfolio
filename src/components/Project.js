@@ -22,6 +22,10 @@ const Image = styled.img`
   width: auto;
   padding: 10px;
   border: 1px solid #e6e6e6;
+
+  @media only screen and (max-width: 500px){
+    height: 150px;
+  }
 `;
 
 const ProjectTitle = styled.p`
