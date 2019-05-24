@@ -18,8 +18,8 @@ const ProjectLink = styled.a`
 `;
 
 const Image = styled.img`
-  height: 250px;
-  width: 250px;
+  height: 200px;
+  width: auto;
   padding: 10px;
   border: 1px solid #e6e6e6;
 `;
