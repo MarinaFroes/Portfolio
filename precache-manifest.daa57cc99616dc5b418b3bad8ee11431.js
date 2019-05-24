@@ -1,43 +1,47 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "40cb754324080b20ad2652a07a314609",
+    "revision": "1930ef0486550e1049c5aa7be2c12971",
     "url": "/Portfolio/index.html"
   },
   {
-    "revision": "5b49cfbf85990091cb15",
+    "revision": "c98240fa4f2b6b3c121e",
     "url": "/Portfolio/static/css/main.f34c7617.chunk.css"
   },
   {
-    "revision": "4dd7ad70e5abe4b6a20d",
-    "url": "/Portfolio/static/js/2.5901b701.chunk.js"
+    "revision": "2621c53a338ad59c6d2d",
+    "url": "/Portfolio/static/js/2.1293ee61.chunk.js"
   },
   {
-    "revision": "5b49cfbf85990091cb15",
-    "url": "/Portfolio/static/js/main.1897324b.chunk.js"
+    "revision": "c98240fa4f2b6b3c121e",
+    "url": "/Portfolio/static/js/main.9164a38e.chunk.js"
   },
   {
     "revision": "6b64d540f1308ee928ad",
     "url": "/Portfolio/static/js/runtime~main.132fbc8c.js"
   },
   {
-    "revision": "e78c359d10cb2ff4bb294b0a438f99cd",
-    "url": "/Portfolio/static/media/FroggerClone.e78c359d.png"
+    "revision": "823120f97aa993b8f7aa97c70bebd100",
+    "url": "/Portfolio/static/media/FroggerClone.823120f9.png"
   },
   {
     "revision": "d44f7a87b591f9c7a0911c3ff4f896c2",
     "url": "/Portfolio/static/media/MarinaCosta.d44f7a87.jpg"
   },
   {
-    "revision": "8121459a157428409e2b24125071cb18",
-    "url": "/Portfolio/static/media/MatchingGame.8121459a.png"
+    "revision": "83dc26a2b0ca9693f79d800351e293dc",
+    "url": "/Portfolio/static/media/MatchingGame.83dc26a2.png"
   },
   {
-    "revision": "9339c59e55642322e97d29c6e3ff1cc6",
-    "url": "/Portfolio/static/media/PortfolioPlainJS.9339c59e.png"
+    "revision": "fc493a0c94c7d4e598bfee7f909da3ee",
+    "url": "/Portfolio/static/media/PortfolioPlainJS.fc493a0c.png"
   },
   {
-    "revision": "0bce0299e12c9d30c756b2e4e66f01d4",
-    "url": "/Portfolio/static/media/WeatherChecker.0bce0299.png"
+    "revision": "96cb3243f117bc4a4359aea19c4bc8c4",
+    "url": "/Portfolio/static/media/WeatherChecker.96cb3243.png"
+  },
+  {
+    "revision": "2ed11ca0b34b1e7b093fdb2981f3692f",
+    "url": "/Portfolio/static/media/YelpClone.2ed11ca0.png"
   },
   {
     "revision": "9dd105b23777356982034d44dba22f33",
