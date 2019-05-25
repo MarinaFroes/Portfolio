@@ -2,6 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 
 import picture from './images/MarinaCosta.jpg'; 
+import { LINKS } from './links';
 
 const Header = styled.header`
   display: flex;
@@ -55,25 +56,6 @@ const Title = styled.h2`
   color: silver;
 `;
 
-const LINKS = [
-  {
-    label: 'Projects',
-    href: '#projects'
-  },
-  {
-    label: 'Skills',
-    href: '#skills'
-  },
-  {
-    label: 'Timeline',
-    href: '#timeline'
-  },
-  {
-    label: 'Contact',
-    href: '#contact'
-  }
-];
-
 const HeaderContainer = () => (
   <Header>
     <NavContainer >
@@ -88,13 +70,11 @@ const HeaderContainer = () => (
         ))}
       </nav>
     </NavContainer>
-    
     <AuthorInfo>
       <Image src={picture} alt="Profile picture" />
       <h1>Marina Fróes A. Costa</h1>
       <Title>Front-End Developer</Title>
     </AuthorInfo>
-    
   </Header>
 );
 
