@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import PropTypes from 'prop-types';
 
 const Icon = styled.a`
   color: silver;
@@ -19,3 +20,8 @@ const SocialMedia = ({ icon, address }) => (
 );
 
 export default SocialMedia;
+
+SocialMedia.propTypes = {
+  icon: PropTypes.object,
+  address: PropTypes.string.isRequired
+}
