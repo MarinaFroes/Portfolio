@@ -9,6 +9,7 @@ import Portfolio from "./images/PortfolioPlainJS.png";
 import WeatherChecker from "./images/WeatherChecker.png";
 import YelpClone from "./images/YelpClone.png";
 
+const MY_PROFILE = "https://github.com/MarinaFroes";
 const MY_GITHUB = "https://marinafroes.github.io";
 
 const PROJECTS_INFO = [
@@ -16,31 +17,31 @@ const PROJECTS_INFO = [
     title: "Frogger Clone",
     src: `${FroggerClone}`,
     alt: "Screenshot of the Frogger Clone Project",
-    link: `${MY_GITHUB}/FEND-project3-Arcade-Game-Clone/`
+    link: "/FEND-project3-Arcade-Game-Clone/"
   },
   {
     title: "Matching Game",
     src: `${MatchingGame}`,
     alt: "Screenshot of the Matching Game Project",
-    link: `${MY_GITHUB}/FEND-project2-Matching-Game/`
+    link: `/FEND-project2-Matching-Game/`
   },
   {
     title: "Portfolio webpage",
     src: `${Portfolio}`,
     alt: "Screenshot of the Portfolio webpage",
-    link: `${MY_GITHUB}/FEND-project1-Portfolio/`
+    link: `/FEND-project1-Portfolio/`
   },
   {
     title: "Yelp Clone",
     src: `${YelpClone}`,
     alt: "Screenshot of the Yelp Clone Project",
-    link: `${MY_GITHUB}/Ravenous-Codecademy/`
+    link: `/Ravenous-Codecademy/`
   },
   {
     title: "Weather Checker",
     src: `${WeatherChecker}`,
     alt: "Screenshot of the Weather Checker Project",
-    link: `${MY_GITHUB}/Check-Weather/`
+    link: `/Check-Weather/`
   }
 ];
 
@@ -55,14 +56,18 @@ const Projects = () => (
   <Section heading="Projects">
     <ProjectsSection>
       {PROJECTS_INFO.map(project => (
-        <Project
-          key={project.src}
-          title={project.title}
-          src={project.src}
-          alt={project.alt}
-          link={project.link}
-        />
+        <div>
+          <Project
+            key={project.src}
+            title={project.title}
+            src={project.src}
+            alt={project.alt}
+            project={`${MY_GITHUB}${project.link}`}
+            code={`${MY_PROFILE}${project.link}`}
+          />
+        </div>
       ))}
+      
     </ProjectsSection>
   </Section>
 );

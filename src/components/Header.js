@@ -24,6 +24,7 @@ const NavLink = styled.a`
   color: #000;
   text-decoration: none;
   margin-right: 20px;
+  font-size: 1.2rem;
   &:hover {
     text-decoration: underline;
   }
@@ -69,6 +70,7 @@ const HeaderContainer = () => (
           </NavLink>
         ))}
       </nav>
+      
     </NavContainer>
     <AuthorInfo>
       <Image src={picture} alt="Profile picture" />
@@ -76,6 +78,7 @@ const HeaderContainer = () => (
       <Title>Front-End Developer</Title>
     </AuthorInfo>
   </Header>
+  
 );
 
 export default HeaderContainer;
