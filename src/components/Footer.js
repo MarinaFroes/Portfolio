@@ -42,7 +42,8 @@ const Footer = () => (
       <p>
         <strong>Do you want to say hello?</strong>
       </p>
-      <CvLink href="https://drive.google.com/open?id=1qssydKYwpfuyO9hbsgXUWHlPLAdRX0v0" download>Download my CV</CvLink>
+      <CvLink href="https://drive.google.com/open?id=1qssydKYwpfuyO9hbsgXUWHlPLAdRX0v0" download target="_blank"
+        rel="noopener noreferrer">Download my CV</CvLink>
       <SocialMediaContainer>
         <SocialMedia icon={<FaAt />} address={`mailto:${MY_GMAIL}`} />
         <SocialMedia icon={<FaGithub />} address={MY_GITHUB} />
