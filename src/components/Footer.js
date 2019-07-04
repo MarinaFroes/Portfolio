@@ -21,12 +21,28 @@ const SocialMediaContainer = styled.div`
   padding: 30px;
 `;
 
+const CvLink = styled.a`
+  font-size: 1rem;
+  padding: 5px;
+  width: 10rem;
+  text-align: center;
+  border-radius: 10px;
+  background-color: MediumOrchid ;
+  color: white;
+  text-decoration: none;
+  margin-top: 10px;
+  &:hover {
+    text-decoration: underline;
+  }
+`;
+
 const Footer = () => (
   <Section heading="Contact">
     <Contacts>
       <p>
         <strong>Do you want to say hello?</strong>
       </p>
+      <CvLink href='https://drive.google.com/open?id=1qssydKYwpfuyO9hbsgXUWHlPLAdRX0v0' download>Download my CV</CvLink>
       <SocialMediaContainer>
         <SocialMedia icon={<FaAt />} address={`mailto:${MY_GMAIL}`} />
         <SocialMedia icon={<FaGithub />} address={MY_GITHUB} />
