@@ -7,22 +7,22 @@ import Section from './Section';
 const SKILLS = [
   {
     name: 'React',
-    level: '30%',
+    level: '40%',
     icon: <FaReact />
   },
   {
     name: 'JavaScript',
-    level: '40%',
+    level: '50%',
     icon: <FaJsSquare />
   },
   {
     name: 'CSS',
-    level: '50%',
+    level: '60%',
     icon: <FaCss3Alt />
   },
   {
     name: 'HTML',
-    level: '60%',
+    level: '75%',
     icon: <FaHtml5 />
   }
 ];
