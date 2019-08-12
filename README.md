@@ -2,15 +2,22 @@
 ![Logo](./src/components/images/logo.png) 
 # My Portfolio  
 
+![Gif](./src/components/images/Portfolio.gif)
+
 ## Introduction
 
 - I created this Portfolio web app to use the skills I learned in my React Course and also to show some information about me.
 
-## How to install and use it?
+## Installation and use
 
-- Download the files, cd into directory and run:
-  - npm install
-  - npm start
+- Download the files, cd into root directory and run:
+```bash
+# Install dependencies
+$ npm install
+
+# Run the app
+$ npm start
+```
 
 ## References
 
