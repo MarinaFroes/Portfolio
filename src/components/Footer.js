@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import { FaGithub, FaLinkedin, FaAt } from 'react-icons/fa';
+import { FaGithub, FaLinkedin, FaEnvelope } from 'react-icons/fa';
 
 import Section from './Section';
 import SocialMedia from './SocialMedia';
@@ -45,7 +45,7 @@ const Footer = () => (
       <CvLink href="https://drive.google.com/open?id=1SXQ-Puz0We-7ioDS8Fc6HbzAJOUEanxX" download target="_blank"
         rel="noopener noreferrer">Download my CV</CvLink>
       <SocialMediaContainer>
-        <SocialMedia icon={<FaAt />} address={`mailto:${MY_GMAIL}`} />
+        <SocialMedia icon={<FaEnvelope />} address={`mailto:${MY_GMAIL}`} />
         <SocialMedia icon={<FaGithub />} address={MY_GITHUB} />
         <SocialMedia icon={<FaLinkedin />} address={MY_LINKEDIN} />
       </SocialMediaContainer>
