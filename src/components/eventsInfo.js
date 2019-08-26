@@ -1,12 +1,12 @@
 export const EVENTS_INFO = [
   {
-    interval: 'Feb 2019 – present',
+    interval: 'Feb 2019 – Jun 2019',
     name: 'React course',
     location: 'Berlin - Germany',
     institution: 'ReDI School of Digital Integration gGmbH'
   },
   {
-    interval: 'Feb 2019 – present',
+    interval: 'Feb 2019 – Jun 2019',
     name: 'Front-End Web Developer Nanodegree',
     location: '',
     institution: 'Udacity (online)'
