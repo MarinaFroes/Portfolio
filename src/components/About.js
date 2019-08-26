@@ -18,7 +18,7 @@ const About = () => (
   <Section heading="About Me">
     <AboutSection>
       {ABOUT_INFOS.map(aboutInfo => (
-        <ScrollAnimation animateIn="fadeIn" duration={3} animateOnce={true}>
+        <ScrollAnimation animateIn="fadeIn" duration={2} animateOnce={true}>
           <Info
             key={aboutInfo.src}
             title={aboutInfo.title}
