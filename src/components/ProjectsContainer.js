@@ -8,6 +8,7 @@ import FroggerClone from "./images/FroggerClone.gif";
 import Portfolio from "./images/PortfolioPlainJS.png";
 import WeatherChecker from "./images/WeatherChecker.png";
 import YelpClone from "./images/YelpClone.png";
+import TeaCozy from "./images/TeaCozy.png";
 
 const MY_PROFILE = "https://github.com/MarinaFroes";
 const MY_GITHUB = "https://marinafroes.github.io";
@@ -42,6 +43,12 @@ const PROJECTS_INFO = [
     src: `${WeatherChecker}`,
     alt: "Screenshot of the Weather Checker Project",
     link: `/Check-Weather/`
+  },
+  {
+    title: "Tea Cozy",
+    src: `${TeaCozy}`,
+    alt: "Screenshot of the Tea Cozy Project",
+    link: `/Tea-Cozy/`
   }
 ];
 
