@@ -1,13 +1,13 @@
-import React from 'react';
-import styled from 'styled-components';
-import { FaGithub, FaLinkedin, FaEnvelope } from 'react-icons/fa';
+import React from "react";
+import styled from "styled-components";
+import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
 
-import Section from './Section';
-import SocialMedia from './SocialMedia';
+import Section from "./Section";
+import SocialMedia from "./SocialMedia";
 
-const MY_LINKEDIN = 'https://www.linkedin.com/in/marina-froes-a-costa/';
-const MY_GITHUB = 'https://github.com/MarinaFroes';
-const MY_GMAIL = 'facosta.marina@gmail.com';
+const MY_LINKEDIN = "https://www.linkedin.com/in/marina-froes-a-costa/";
+const MY_GITHUB = "https://github.com/MarinaFroes";
+const MY_GMAIL = "facosta.marina@gmail.com";
 
 const Contacts = styled.footer`
   display: flex;

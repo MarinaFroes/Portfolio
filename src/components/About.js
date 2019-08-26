@@ -1,11 +1,11 @@
-import React from 'react';
-import styled from 'styled-components';
-import 'animate.css/animate.min.css';
-import ScrollAnimation from 'react-animate-on-scroll';
+import React from "react";
+import styled from "styled-components";
+import "animate.css/animate.min.css";
+import ScrollAnimation from "react-animate-on-scroll";
 
-import Section from './Section';
-import Info from './Info';
-import { ABOUT_INFOS } from './aboutInfo';
+import Section from "./Section";
+import Info from "./Info";
+import { ABOUT_INFOS } from "./aboutInfo";
 
 const AboutSection = styled.div`
   display: flex;
