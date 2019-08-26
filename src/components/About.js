@@ -1,5 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
+import 'animate.css/animate.min.css';
+import ScrollAnimation from 'react-animate-on-scroll';
 
 import Section from './Section';
 import Info from './Info';
@@ -16,13 +18,15 @@ const About = () => (
   <Section heading="About Me">
     <AboutSection>
       {ABOUT_INFOS.map(aboutInfo => (
-        <Info
-          key={aboutInfo.src}
-          title={aboutInfo.title}
-          src={aboutInfo.src}
-          alt={aboutInfo.alt}
-          subtitle={aboutInfo.subtitle}
-        />
+        <ScrollAnimation animateIn="fadeIn" duration={3} animateOnce={true}>
+          <Info
+            key={aboutInfo.src}
+            title={aboutInfo.title}
+            src={aboutInfo.src}
+            alt={aboutInfo.alt}
+            subtitle={aboutInfo.subtitle}
+            />
+        </ScrollAnimation>
       ))}
     </AboutSection>
   </Section>
