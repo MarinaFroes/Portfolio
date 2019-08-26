@@ -1,5 +1,7 @@
 import React from "react";
 import styled from "styled-components";
+import { InlineIcon } from "@iconify/react";
+import reduxIcon from "@iconify/icons-simple-icons/redux";
 import { FaReact, FaCss3Alt, FaHtml5, FaJsSquare } from "react-icons/fa";
 
 import Section from "./Section";
@@ -9,6 +11,11 @@ const SKILLS = [
     name: "React",
     level: "40%",
     icon: <FaReact />
+  },
+  {
+    name: "Redux",
+    level: "20%",
+    icon: <InlineIcon icon={reduxIcon} />
   },
   {
     name: "JavaScript",
