@@ -1,28 +1,28 @@
-import React from 'react';
-import styled from 'styled-components';
-import { FaReact, FaCss3Alt, FaHtml5, FaJsSquare } from 'react-icons/fa';
+import React from "react";
+import styled from "styled-components";
+import { FaReact, FaCss3Alt, FaHtml5, FaJsSquare } from "react-icons/fa";
 
-import Section from './Section';
+import Section from "./Section";
 
 const SKILLS = [
   {
-    name: 'React',
-    level: '40%',
+    name: "React",
+    level: "40%",
     icon: <FaReact />
   },
   {
-    name: 'JavaScript',
-    level: '50%',
+    name: "JavaScript",
+    level: "50%",
     icon: <FaJsSquare />
   },
   {
-    name: 'CSS',
-    level: '60%',
+    name: "CSS",
+    level: "60%",
     icon: <FaCss3Alt />
   },
   {
-    name: 'HTML',
-    level: '75%',
+    name: "HTML",
+    level: "75%",
     icon: <FaHtml5 />
   }
 ];
