@@ -3,8 +3,8 @@ import styled from "styled-components";
 
 import Section from "./Section";
 import Project from "./Project";
-import MatchingGame from "./images/MatchingGame.gif";
-import FroggerClone from "./images/FroggerClone.gif";
+import MatchingGame from "./images/MatchingGame.png";
+import FroggerClone from "./images/FroggerClone.png";
 import Portfolio from "./images/PortfolioPlainJS.png";
 import WeatherChecker from "./images/WeatherChecker.png";
 import YelpClone from "./images/YelpClone.png";
