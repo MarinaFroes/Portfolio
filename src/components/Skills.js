@@ -8,14 +8,14 @@ import Section from "./Section";
 
 const SKILLS = [
   {
-    name: "React",
-    level: "40%",
-    icon: <FaReact />
-  },
-  {
     name: "Redux",
     level: "20%",
     icon: <InlineIcon icon={reduxIcon} />
+  },
+  {
+    name: "React",
+    level: "40%",
+    icon: <FaReact />
   },
   {
     name: "JavaScript",
