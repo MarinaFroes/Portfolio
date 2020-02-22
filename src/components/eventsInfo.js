@@ -1,6 +1,6 @@
 export const EVENTS_INFO = [
   {
-    interval: 'Oct 2019 – Now',
+    interval: 'Oct 2019 – Feb 2020',
     name: 'React Developer Nanodegree',
     location: '',
     institution: 'Udacity (online)'
