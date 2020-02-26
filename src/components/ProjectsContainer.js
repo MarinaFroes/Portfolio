@@ -9,8 +9,8 @@ import Portfolio from "./images/PortfolioPlainJS.png";
 import WeatherChecker from "./images/WeatherChecker.png";
 import YelpClone from "./images/YelpClone.png";
 import TeaCozy from "./images/TeaCozy.png";
-import WouldYouRather from "./images/WouldYouRather.png"
-import MyReads from "./images/MyReads.png"
+import WouldYouRather from "./images/WouldYouRather.png";
+import MyReads from "./images/MyReads.png";
 
 const MY_PROFILE = "https://github.com/MarinaFroes";
 const MY_GITHUB = "https://marinafroes.github.io";
@@ -68,18 +68,25 @@ const PROJECTS_INFO = [
 
 const ProjectsSection = styled.div`
   display: flex;
-  justify-content: space-evenly;
-  flex-flow: row wrap;
+  flex-wrap: wrap;
+  justify-content: center;
+  border: 4px solid blue;
   width: 100%;
 `;
+// const ProjectsSection = styled.div`
+//   display: flex;
+//   justify-content: space-evenly;
+//   flex-flow: row wrap;
+//   width: 100%;
+//   border: 4px solid blue;
+// `;
 
 const Projects = () => (
   <Section heading="Projects">
     <ProjectsSection>
-      {PROJECTS_INFO.map(project => (
-        <div>
+      {PROJECTS_INFO.map((project, index) => (
+        <div key={index}>
           <Project
-            key={project.src}
             title={project.title}
             src={project.src}
             alt={project.alt}

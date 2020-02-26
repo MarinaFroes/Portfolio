@@ -22,7 +22,8 @@ const NavContainer = styled.div`
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  padding: 10px;
+  align-items: center;
+  height: 10vh;
 `;
 
 const NavLink = styled.a`
@@ -54,8 +55,9 @@ const AuthorInfo = styled.div`
   justify-content: center;
   align-items: center;
   text-align: center;
-  padding: 2rem;
+  
   background-color: #4287f5;
+  height: 90vh;
 `;
 // const AuthorInfo = styled.div`
 //   display: flex;
@@ -72,24 +74,35 @@ const AuthorInfo = styled.div`
 // `;
 
 const Image = styled.img`
-  width: 200px;
+  width: 20vw;
   height: auto;
   border-radius: 50%;
   box-shadow: 4px 3px 14px 0 #455369;
-  
-  
+
+  @media only screen and (max-width: 900px){
+    width: 30vw;
+  }
+
+  @media only screen and (max-width: 700px){
+    width: 30vw;
+  }
+
+  @media only screen and (max-width: 600px){
+    width: 50vw;
+  }
+
 `;
 
 const Title = styled.h2`
   color: #fff;
-  font-size: 1.4rem;
+  font-size: 1.6rem;
   padding-bottom: 1rem;
   font-weight: normal;
 `;
 
 const Greeting = styled.h1`
   color: #fff;
-  font-size: 1.7rem;
+  font-size: 2rem;
   font-weight: normal;
 `
 

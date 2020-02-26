@@ -2,11 +2,45 @@ import React from 'react';
 import styled from 'styled-components';
 
 const ProjectSection = styled.div`
+  background-image: url(${props => props.imageSrc || 'https://dummyimage.com/740x420/e6e6e6/000000&text=no+image+'});
+  background-position: center;
+  background-size: cover;
+  min-width: 25rem;
+  height: auto;
+  margin: 0;
+  border: 1px solid red;
+  flex-grow: 1;
+`;
+// const ProjectSection = styled.div`
+//   display: flex;
+//   flex-direction: column;
+//   justify-content: center;
+//   background-image: url(${props => props.imageSrc || 'https://dummyimage.com/740x420/e6e6e6/000000&text=no+image+'});
+//   background-position: center;
+//   background-size: cover;
+//   align-items: center;
+//   margin: 0;
+//   border: 2px solid red;
+ 
+//   flex: 1 1;
+// `;
+
+const AdditionalInfo = styled.div`
+  height: 100%;
+  width: 100%;
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 20px 10px;
+  text-align: center;
+  background-color: yellow;
+  visibility: hidden;
+  width: 15rem;
+  height: 15rem;
+  font-size: 1.2rem;
+  
+  &:hover {
+    visibility: visible;
+  }
 `;
 
 const ProjectLink = styled.a`
@@ -17,16 +51,25 @@ const ProjectLink = styled.a`
   }
 `;
 
-const Image = styled.img`
-  height: 200px;
-  width: auto;
-  padding: 10px;
-  border: 1px solid #e6e6e6;
-  border-radius: 0 0 20px 0;
-  @media only screen and (max-width: 500px){
-    height: 150px;
-  }
-`;
+// const Image = styled.img`
+//   height: 200px;
+//   width: auto;
+//   padding: 10px;
+//   border: 1px solid #e6e6e6;
+//   @media only screen and (max-width: 500px){
+//     height: 150px;
+//   }
+// `;
+// const Image = styled.img`
+//   height: 200px;
+//   width: auto;
+//   padding: 10px;
+//   border: 1px solid #e6e6e6;
+//   border-radius: 0 0 20px 0;
+//   @media only screen and (max-width: 500px){
+//     height: 150px;
+//   }
+// `;
 
 const ProjectTitle = styled.p`
   font-size: 1.5rem;
@@ -36,8 +79,17 @@ const ProjectTitle = styled.p`
   padding: 0.25rem;
   background-color: silver;
   color: white;
-  border-radius: 20px 0 0 0;
 `;
+// const ProjectTitle = styled.p`
+//   font-size: 1.5rem;
+//   text-transform: uppercase;
+//   font-weight: bold;
+//   text-align: center;
+//   padding: 0.25rem;
+//   background-color: silver;
+//   color: white;
+//   border-radius: 20px 0 0 0;
+// `;
 
 const LinksContainer = styled.div`
   display: flex;
@@ -54,15 +106,16 @@ const Link = styled.a`
 `;
 
 const Project = ({ title, src, alt, project, code }) => (
-  <ProjectSection>
+  <ProjectSection imageSrc={src}>
     <ProjectLink href={project} target="_blank" rel="noopener noreferrer">
+    <AdditionalInfo >
+      <LinksContainer>
+        <Link href={project} target="_blank" rel="noopener noreferrer">View Project</Link>
+        <Link href={code} target="_blank" rel="noopener noreferrer">View Code</Link>
+      </LinksContainer>
       <ProjectTitle>{title}</ProjectTitle>
-      <Image src={src} alt={alt} />
+    </AdditionalInfo>
     </ProjectLink>
-    <LinksContainer>
-      <Link href={project} target="_blank" rel="noopener noreferrer">View Project</Link>
-      <Link href={code} target="_blank" rel="noopener noreferrer">View Code</Link>
-    </LinksContainer>
   </ProjectSection>
 );
 
