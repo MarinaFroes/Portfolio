@@ -42,7 +42,7 @@ const Footer = () => (
       <p>
         <strong>Do you want to say hello?</strong>
       </p>
-      <CvLink href="https://drive.google.com/file/d/1CiscAt_JCL7ddSlwuG9-P1RSq0sHn1fG/view?usp=sharing" download target="_blank"
+      <CvLink href="https://drive.google.com/file/d/1zzHZKeXA-ZTv2ruP7R4TwJuArrfkqelY/view?usp=sharing" download target="_blank"
         rel="noopener noreferrer">Download my CV</CvLink>
       <SocialMediaContainer>
         <SocialMedia icon={<FaEnvelope />} address={`mailto:${MY_GMAIL}`} />
