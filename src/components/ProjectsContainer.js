@@ -9,11 +9,25 @@ import Portfolio from "./images/PortfolioPlainJS.png";
 import WeatherChecker from "./images/WeatherChecker.png";
 import YelpClone from "./images/YelpClone.png";
 import TeaCozy from "./images/TeaCozy.png";
+import WouldYouRather from "./images/WouldYouRather.png"
+import MyReads from "./images/MyReads.png"
 
 const MY_PROFILE = "https://github.com/MarinaFroes";
 const MY_GITHUB = "https://marinafroes.github.io";
 
 const PROJECTS_INFO = [
+  {
+    title: "My Reads App",
+    src: `${MyReads}`,
+    alt: "Screenshot of the My Reads Project",
+    link: "/RDND-project1-MyReads/#/"
+  },
+  {
+    title: "Would You Rather App",
+    src: `${WouldYouRather}`,
+    alt: "Screenshot of the Would You Rather  Project",
+    link: "/RDND-project2-WouldYouRather/#/"
+  },
   {
     title: "Frogger Clone",
     src: `${FroggerClone}`,
