@@ -9,22 +9,22 @@ import Section from "./Section";
 const SKILLS = [
   {
     name: "Redux",
-    level: "20%",
+    level: "30%",
     icon: <InlineIcon icon={reduxIcon} />
   },
   {
     name: "React",
-    level: "40%",
+    level: "50%",
     icon: <FaReact />
   },
   {
     name: "JavaScript",
-    level: "50%",
+    level: "60%",
     icon: <FaJsSquare />
   },
   {
     name: "CSS",
-    level: "60%",
+    level: "70%",
     icon: <FaCss3Alt />
   },
   {
