@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6e5afa062967485f9d2fac4580372fec",
+    "revision": "63e4a7596eeabd29af301ed2773412e6",
     "url": "/Portfolio/index.html"
   },
   {
-    "revision": "0a14d9c736ea2b6ca696",
+    "revision": "ccf24532c24edbec5eca",
     "url": "/Portfolio/static/css/2.5bc09813.chunk.css"
   },
   {
-    "revision": "aef5f356e3242e0d8ec3",
+    "revision": "a0394f0b9b26c7705ac9",
     "url": "/Portfolio/static/css/main.f34c7617.chunk.css"
   },
   {
-    "revision": "0a14d9c736ea2b6ca696",
-    "url": "/Portfolio/static/js/2.01963985.chunk.js"
+    "revision": "ccf24532c24edbec5eca",
+    "url": "/Portfolio/static/js/2.cc5a5362.chunk.js"
   },
   {
-    "revision": "aef5f356e3242e0d8ec3",
-    "url": "/Portfolio/static/js/main.49dec3dd.chunk.js"
+    "revision": "a0394f0b9b26c7705ac9",
+    "url": "/Portfolio/static/js/main.95fa5f4b.chunk.js"
   },
   {
     "revision": "6b64d540f1308ee928ad",
@@ -36,6 +36,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Portfolio/static/media/MatchingGame.83dc26a2.png"
   },
   {
+    "revision": "1364f5521d4b91b3976d89f32bc0128b",
+    "url": "/Portfolio/static/media/MyReads.1364f552.png"
+  },
+  {
     "revision": "fc493a0c94c7d4e598bfee7f909da3ee",
     "url": "/Portfolio/static/media/PortfolioPlainJS.fc493a0c.png"
   },
@@ -46,6 +50,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "96cb3243f117bc4a4359aea19c4bc8c4",
     "url": "/Portfolio/static/media/WeatherChecker.96cb3243.png"
+  },
+  {
+    "revision": "ce93ba211680c257f5c7da902d887b79",
+    "url": "/Portfolio/static/media/WouldYouRather.ce93ba21.png"
   },
   {
     "revision": "2ed11ca0b34b1e7b093fdb2981f3692f",
