@@ -74,8 +74,8 @@ const HeaderContainer = () => (
     </NavContainer>
     <AuthorInfo>
       <Image src={picture} alt="Profile picture" />
-      <h1>Marina Fróes A. Costa</h1>
-      <Title>Front-End Developer</Title>
+      <h1>Marina Costa</h1>
+      <Title>Frontend Developer</Title>
     </AuthorInfo>
   </Header>
   
