@@ -4,8 +4,7 @@ import styled from 'styled-components';
 const SectionContainer = styled.section`
   display: flex;
   margin: 0;
-  width: 90vw;
-  padding: 50px;
+  width: 100%;
 `
 const Content = styled.div`
   display: flex;
@@ -15,7 +14,7 @@ const Content = styled.div`
 
 const Heading = styled.h1`
   text-align: left;
-  margin: 0;
+  margin: 1.5rem;
   writing-mode: vertical-rl;
   text-orientation: sideways;
 `
