@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="38.157616mm"
+   height="37.934944mm"
+   viewBox="0 0 171.25858 170.25971"
+   version="1.2"
+   id="svg3446"
+   sodipodi:docname="logo.svg"
+   inkscape:version="0.92.2 5c3e80d, 2017-08-06"
+   inkscape:export-filename="/Users/marinafroes/projects/fend_project1/img/biglogo.png"
+   inkscape:export-xdpi="133.13211"
+   inkscape:export-ydpi="133.13211">
+  <metadata
+     id="metadata3450">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Qt SVG Document</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1280"
+     inkscape:window-height="691"
+     id="namedview3448"
+     showgrid="false"
+     inkscape:zoom="1.4142137"
+     inkscape:cx="99.091398"
+     inkscape:cy="23.625753"
+     inkscape:window-x="0"
+     inkscape:window-y="1"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg3446" />
+  <title
+     id="title2">Qt SVG Document</title>
+  <desc
+     id="desc4">Generated with Qt</desc>
+  <defs
+     id="defs6" />
+  <path
+     style="fill:#347b98;fill-opacity:1;stroke:none;stroke-width:1.18750358px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     d="m 0.55182694,170.25971 -0.5538,-89.130355 C 0.11532694,30.546185 44.724527,-0.15452503 85.826827,5.8496952e-4 l 85.430313,-1.9e-4 -7e-4,85.05301003048 c -0.4937,47.822415 -38.16791,85.562885 -85.429613,85.052805 z"
+     id="path908" />
+  <path
+     style="fill:#ffffff;stroke:none;stroke-width:1.18750358px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     d="M 19.435615,29.318832 V 112.86817 H 34.130222 L 34.550067,54.929433 C 36.577263,37.59278 50.827753,24.778817 52.183595,52.830203 V 113.28802 H 66.878202 L 67.298047,57.529281 C 71.332314,26.84795 85.29616,44.501624 84.931575,54.509586 l 0.0975,59.592664 c 4.284311,36.74852 35.673995,45.71845 64.998035,27.29146 2.57336,-2.05973 1.98961,-0.60592 4.46487,-5.63712 L 149.168,125.46356 C 86.684034,160.77334 85.09264,63.888543 136.99246,82.639261 v 14.694614 h 14.69461 V 71.723268 C 134.87546,66.596688 118.33898,58.938958 99.626177,71.303422 L 100.04602,43.173747 C 98.481767,22.259323 78.830125,17.056932 64.359126,33.937137 47.037706,11.99784 33.557269,30.80601 32.378804,33.814167 l -2.027196,-8.273948 h -7.557226 z"
+     id="path17"
+     inkscape:connector-curvature="0"
+     sodipodi:nodetypes="cccccccccccccccccccccccc" />
+</svg>
