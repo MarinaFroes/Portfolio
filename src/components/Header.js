@@ -3,6 +3,7 @@ import styled from 'styled-components';
 
 import picture from './images/MarinaCosta.jpg'; 
 import { LINKS } from './links';
+import logo from './images/logo.svg'
 
 const Header = styled.header`
   display: flex;
@@ -20,9 +21,9 @@ const Header = styled.header`
 
 const NavContainer = styled.div`
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
+  padding: 0 2rem;
   height: 10vh;
 `;
 
@@ -30,12 +31,18 @@ const NavLink = styled.a`
   color: #000;
   text-decoration: none;
   margin: 1rem;
-  font-size: 1rem;
+  font-size: 1.1rem;
   &:hover {
     text-decoration: underline;
   }
- 
 `;
+
+const StyledNav = styled.nav`
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+`
 // const NavLink = styled.a`
 //   color: #000;
 //   text-decoration: none;
@@ -55,10 +62,10 @@ const AuthorInfo = styled.div`
   justify-content: center;
   align-items: center;
   text-align: center;
-  
-  background-color: #4287f5;
+  background-color: #347B98;
   height: 90vh;
 `;
+
 // const AuthorInfo = styled.div`
 //   display: flex;
 //   flex-direction: column;
@@ -93,23 +100,53 @@ const Image = styled.img`
 
 `;
 
+const AuthorText = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem 0;
+`
+
 const Title = styled.h2`
   color: #fff;
   font-size: 1.6rem;
-  padding-bottom: 1rem;
   font-weight: normal;
+  padding: 0;
+  margin: 0;
 `;
 
 const Greeting = styled.h1`
   color: #fff;
   font-size: 2rem;
   font-weight: normal;
+  padding: 0;
+  margin: 0;
+`
+
+const StyledLogo = styled.a`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  margin: 0;
+
+`
+
+const Icon = styled.img`
+  height: 5vh;
+  margin: 0;
 `
 
 const HeaderContainer = () => (
   <Header>
     <NavContainer >
-      <nav>
+      <StyledLogo
+        href="/"
+        rel="noopener noreferrer"
+      >
+        <Icon src={logo} alt="" />
+      </StyledLogo>
+      <StyledNav>
         {LINKS.map(link => (
           <NavLink
             key={link.href}
@@ -118,18 +155,17 @@ const HeaderContainer = () => (
             {link.label}
           </NavLink>
         ))}
-      </nav>
+      </StyledNav>
       
     </NavContainer>
     <AuthorInfo>
-      <Greeting>Hello, I'm <strong>Marina Costa</strong>.</Greeting>
-      <Title>I am a Frontend Developer</Title>
+      <AuthorText>
+        <Greeting>Hello, I'm <strong>Marina Costa</strong>.</Greeting>
+        <Title>I am a Frontend Developer</Title>
+      </AuthorText>
       <Image src={picture} alt="Profile picture" />
-      {/* <h1>Marina Costa</h1>
-      <Title>Frontend Developer</Title> */}
     </AuthorInfo>
   </Header>
-  
 );
 
 export default HeaderContainer;
