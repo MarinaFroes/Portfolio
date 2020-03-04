@@ -11,6 +11,10 @@ const ProjectSection = styled.div`
   margin: 0;
   border: 1px solid #e6e6e6;
   flex-grow: 1;
+
+  @media only screen and (max-width: 500px){
+    min-width: 10rem;
+  }
 `;
 
 const AdditionalInfo = styled.div`

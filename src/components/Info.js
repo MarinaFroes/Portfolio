@@ -8,6 +8,10 @@ const InfoContainer = styled.div`
   justify-content: center;
   align-items: center;
   margin: 20px;
+
+  @media only screen and (max-width: 500px){
+    margin: 10px;
+  }
 `;
 
 const InfoTitle = styled.h3`

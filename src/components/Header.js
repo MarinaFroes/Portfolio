@@ -11,13 +11,6 @@ const Header = styled.header`
   margin: 0;
   width: 100%;
 `;
-// const Header = styled.header`
-//   display: flex;
-//   flex-direction: row-reverse;
-//   flex-wrap: wrap;
-//   margin: 0;
-//   width: 100%;
-// `;
 
 const NavContainer = styled.div`
   display: flex;
@@ -35,6 +28,10 @@ const NavLink = styled.a`
   &:hover {
     text-decoration: underline;
   }
+
+  @media only screen and (max-width: 500px){
+    margin: 0.5rem;
+  }
 `;
 
 const StyledNav = styled.nav`
@@ -43,18 +40,6 @@ const StyledNav = styled.nav`
   justify-content: center;
   align-items: center;
 `
-// const NavLink = styled.a`
-//   color: #000;
-//   text-decoration: none;
-//   margin-right: 20px;
-//   font-size: 1.2rem;
-//   &:hover {
-//     text-decoration: underline;
-//   }
-//   &:last-of-type {
-//     margin-right: 40;
-//   }
-// `;
 
 const AuthorInfo = styled.div`
   display: flex;
@@ -65,20 +50,6 @@ const AuthorInfo = styled.div`
   background-color: #347B98;
   height: 90vh;
 `;
-
-// const AuthorInfo = styled.div`
-//   display: flex;
-//   flex-direction: column;
-//   width: 100%;
-//   padding: 10px 10px 10px 50px;
-
-//   @media only screen and (max-width: 600px){
-//     justify-content: center;
-//     align-items: center;
-//     text-align: center;
-//     padding: 0;
-//   }
-// `;
 
 const Image = styled.img`
   width: 20vw;
@@ -130,6 +101,9 @@ const StyledLogo = styled.a`
   text-decoration: none;
   margin: 0;
 
+  @media only screen and (max-width: 500px){
+    display: none;
+  }
 `
 
 const Icon = styled.img`
