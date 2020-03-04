@@ -6,14 +6,22 @@ const ProjectSection = styled.div`
   background-image: url(${props => props.imageSrc || 'https://dummyimage.com/740x420/e6e6e6/000000&text=no+image+'});
   background-position: center;
   background-size: cover;
-  max-width: 30rem;
+  width: 28rem;
+  
   height: auto;
   margin: 0;
   border: 1px solid #e6e6e6;
-  flex-grow: 1;
+  
+  @media only screen and (max-width: 700px){
+    width: 25rem;
+  }
 
   @media only screen and (max-width: 500px){
-    min-width: 10rem;
+    width: 19rem;
+  }
+
+  @media only screen and (max-width: 400px){
+    width: 16rem;
   }
 `;
 
