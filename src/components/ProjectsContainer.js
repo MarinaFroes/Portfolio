@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import ScrollAnimation from "react-animate-on-scroll";
 
 import Section from "./Section";
 import Project from "./Project";
@@ -20,49 +21,57 @@ const PROJECTS_INFO = [
     title: "My Reads App",
     src: `${MyReads}`,
     alt: "Screenshot of the My Reads Project",
-    link: "/RDND-project1-MyReads/#/"
+    link: "/RDND-project1-MyReads/#/",
+    technologies: 'React.js'
   },
   {
     title: "Would You Rather App",
     src: `${WouldYouRather}`,
     alt: "Screenshot of the Would You Rather  Project",
-    link: "/RDND-project2-WouldYouRather/#/"
+    link: "/RDND-project2-WouldYouRather/#/",
+    technologies: 'React.js, Redux'
   },
   {
     title: "Frogger Clone",
     src: `${FroggerClone}`,
     alt: "Screenshot of the Frogger Clone Project",
-    link: "/FEND-project3-Arcade-Game-Clone/"
+    link: "/FEND-project3-Arcade-Game-Clone/",
+    technologies: 'JavaScript, CSS3, HTML5'
   },
   {
     title: "Matching Game",
     src: `${MatchingGame}`,
     alt: "Screenshot of the Matching Game Project",
-    link: `/FEND-project2-Matching-Game/`
+    link: `/FEND-project2-Matching-Game/`,
+    technologies: 'JavaScript, CSS3, HTML5'
   },
   {
     title: "Portfolio webpage",
     src: `${Portfolio}`,
     alt: "Screenshot of the Portfolio webpage",
-    link: `/FEND-project1-Portfolio/`
+    link: `/FEND-project1-Portfolio/`,
+    technologies: 'CSS3, HTML5'
   },
   {
     title: "Yelp Clone",
     src: `${YelpClone}`,
     alt: "Screenshot of the Yelp Clone Project",
-    link: `/Ravenous-Codecademy/`
+    link: `/Ravenous-Codecademy/`,
+    technologies: 'React.js'
   },
   {
     title: "Weather Checker",
     src: `${WeatherChecker}`,
     alt: "Screenshot of the Weather Checker Project",
-    link: `/Check-Weather/`
+    link: `/Check-Weather/`,
+    technologies: 'React.js'
   },
   {
     title: "Tea Cozy",
     src: `${TeaCozy}`,
     alt: "Screenshot of the Tea Cozy Project",
-    link: `/Tea-Cozy/`
+    link: `/Tea-Cozy/`,
+    technologies: 'React.js'
   }
 ];
 
@@ -70,30 +79,23 @@ const ProjectsSection = styled.div`
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  border: 4px solid blue;
   width: 100%;
 `;
-// const ProjectsSection = styled.div`
-//   display: flex;
-//   justify-content: space-evenly;
-//   flex-flow: row wrap;
-//   width: 100%;
-//   border: 4px solid blue;
-// `;
 
 const Projects = () => (
   <Section heading="Projects">
     <ProjectsSection>
       {PROJECTS_INFO.map((project, index) => (
-        <div key={index}>
+        <ScrollAnimation key={index} animateIn="fadeIn" duration={2} animateOnce={true}>
           <Project
             title={project.title}
             src={project.src}
             alt={project.alt}
             project={`${MY_GITHUB}${project.link}`}
             code={`${MY_PROFILE}${project.link}`}
+            technologies={project.technologies}
           />
-        </div>
+        </ScrollAnimation>
       ))}
       
     </ProjectsSection>
