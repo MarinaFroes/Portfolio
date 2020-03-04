@@ -4,6 +4,7 @@ import styled from 'styled-components';
 const SectionContainer = styled.section`
   display: flex;
   margin: 0;
+  padding: 2rem 0;
   width: 100%;
 `
 const Content = styled.div`
