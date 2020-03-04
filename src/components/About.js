@@ -15,7 +15,7 @@ const AboutSection = styled.div`
 `;
 
 const About = () => (
-  <Section heading="About Me">
+  <Section heading="About">
     <AboutSection>
       {ABOUT_INFOS.map((aboutInfo, index) => (
         <ScrollAnimation key={index} animateIn="fadeIn" duration={2} animateOnce={true}>
