@@ -6,7 +6,7 @@ const ProjectSection = styled.div`
   background-image: url(${props => props.imageSrc || 'https://dummyimage.com/740x420/e6e6e6/000000&text=no+image+'});
   background-position: center;
   background-size: cover;
-  min-width: 25rem;
+  max-width: 30rem;
   height: auto;
   margin: 0;
   border: 1px solid #e6e6e6;

@@ -35,9 +35,13 @@ const SKILLS = [
 ];
 
 const SkillIcon = styled.div`
-  font-size: 35px;
+  font-size: 2rem;
   color: silver;
   padding: 10px;
+
+  @media only screen and (max-width: 500px){
+    font-size: 2rem
+  }
 `;
 
 const SkillTitle = styled.h3`

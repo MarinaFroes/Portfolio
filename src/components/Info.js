@@ -7,27 +7,39 @@ const InfoContainer = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 20px;
+  margin: 1rem;
 
   @media only screen and (max-width: 500px){
-    margin: 10px;
+    margin: 0.5rem;
   }
 `;
 
 const InfoTitle = styled.h3`
-  font-size: 20px;
+  font-size: 1.2rem;
   color: silver;
   text-transform: uppercase;
+
+  @media only screen and (max-width: 500px){
+    font-size: 1rem;
+  }
 `;
 
 const Image = styled.img`
-  height: 100px;
-  width: 100px;
-  padding: 10px;
+  height: 8rem;
+  width: 8rem;
+
+  @media only screen and (max-width: 500px){
+    height: 4rem;
+    width: 4rem;
+  }
 `;
 
 const InfoSubtitle = styled.p`
-  font-size: 20px;
+  font-size: 1rem;
+
+  @media only screen and (max-width: 500px){
+    font-size: 0.8rem;
+  }
 `;
 
 const Info = ({ title, src, alt, subtitle }) => (

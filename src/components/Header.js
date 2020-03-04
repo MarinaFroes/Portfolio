@@ -18,6 +18,15 @@ const NavContainer = styled.div`
   align-items: center;
   padding: 0 2rem;
   height: 10vh;
+
+  @media only screen and (max-height: 500px){
+    height: 3rem;
+  }
+
+  @media only screen and (min-height: 1000px){
+    height: 4rem;
+  }
+
 `;
 
 const NavLink = styled.a`
@@ -31,6 +40,11 @@ const NavLink = styled.a`
 
   @media only screen and (max-width: 500px){
     margin: 0.5rem;
+    font-size: 1rem;
+  }
+
+  @media only screen and (max-width: 400px){
+    font-size: 0.9rem;
   }
 `;
 
@@ -49,6 +63,10 @@ const AuthorInfo = styled.div`
   text-align: center;
   background-color: #347B98;
   height: 90vh;
+
+  @media only screen and (min-height: 1000px){
+    height: 40rem;
+  }
 `;
 
 const Image = styled.img`
@@ -69,6 +87,9 @@ const Image = styled.img`
     width: 50vw;
   }
 
+  @media only screen and (max-height: 500px){
+    display: none;
+  }
 `;
 
 const AuthorText = styled.div`
@@ -84,6 +105,10 @@ const Title = styled.h2`
   font-weight: normal;
   padding: 0;
   margin: 0;
+
+  @media only screen and (max-width: 500px){
+    font-size: 1.2rem;
+  }
 `;
 
 const Greeting = styled.h1`
@@ -92,6 +117,10 @@ const Greeting = styled.h1`
   font-weight: normal;
   padding: 0;
   margin: 0;
+
+  @media only screen and (max-width: 500px){
+    font-size: 1.5rem;
+  }
 `
 
 const StyledLogo = styled.a`
@@ -109,6 +138,10 @@ const StyledLogo = styled.a`
 const Icon = styled.img`
   height: 5vh;
   margin: 0;
+
+  @media only screen and (min-height: 1000px){
+    height: 2.5rem;
+  }
 `
 
 const HeaderContainer = () => (
