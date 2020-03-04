@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.f34c7617.chunk.css",
-    "main.js": "/Portfolio/static/js/main.c68991c3.chunk.js",
-    "main.js.map": "/Portfolio/static/js/main.c68991c3.chunk.js.map",
+    "main.css": "/Portfolio/static/css/main.3f215a0e.chunk.css",
+    "main.js": "/Portfolio/static/js/main.99da682c.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.99da682c.chunk.js.map",
     "runtime~main.js": "/Portfolio/static/js/runtime~main.132fbc8c.js",
     "runtime~main.js.map": "/Portfolio/static/js/runtime~main.132fbc8c.js.map",
     "static/css/2.5bc09813.chunk.css": "/Portfolio/static/css/2.5bc09813.chunk.css",
-    "static/js/2.cc5a5362.chunk.js": "/Portfolio/static/js/2.cc5a5362.chunk.js",
-    "static/js/2.cc5a5362.chunk.js.map": "/Portfolio/static/js/2.cc5a5362.chunk.js.map",
+    "static/js/2.52c047de.chunk.js": "/Portfolio/static/js/2.52c047de.chunk.js",
+    "static/js/2.52c047de.chunk.js.map": "/Portfolio/static/js/2.52c047de.chunk.js.map",
     "index.html": "/Portfolio/index.html",
-    "precache-manifest.633b43fec72ed7387d7760a0ae7172f6.js": "/Portfolio/precache-manifest.633b43fec72ed7387d7760a0ae7172f6.js",
+    "precache-manifest.adcc0f23095c643efc1007da0bbf4a01.js": "/Portfolio/precache-manifest.adcc0f23095c643efc1007da0bbf4a01.js",
     "service-worker.js": "/Portfolio/service-worker.js",
     "static/css/2.5bc09813.chunk.css.map": "/Portfolio/static/css/2.5bc09813.chunk.css.map",
-    "static/css/main.f34c7617.chunk.css.map": "/Portfolio/static/css/main.f34c7617.chunk.css.map",
+    "static/css/main.3f215a0e.chunk.css.map": "/Portfolio/static/css/main.3f215a0e.chunk.css.map",
     "static/media/FroggerClone.png": "/Portfolio/static/media/FroggerClone.823120f9.png",
-    "static/media/MarinaCosta.jpg": "/Portfolio/static/media/MarinaCosta.eac59024.jpg",
+    "static/media/MarinaCosta.jpg": "/Portfolio/static/media/MarinaCosta.4901dd38.jpg",
     "static/media/MatchingGame.png": "/Portfolio/static/media/MatchingGame.83dc26a2.png",
     "static/media/MyReads.png": "/Portfolio/static/media/MyReads.1364f552.png",
     "static/media/PortfolioPlainJS.png": "/Portfolio/static/media/PortfolioPlainJS.fc493a0c.png",
@@ -26,6 +26,7 @@
     "static/media/art.svg": "/Portfolio/static/media/art.aabdc549.svg",
     "static/media/berlin.svg": "/Portfolio/static/media/berlin.58b3e57b.svg",
     "static/media/brazil.svg": "/Portfolio/static/media/brazil.d927fc3d.svg",
+    "static/media/logo.svg": "/Portfolio/static/media/logo.ce2bfb59.svg",
     "static/media/lookingfor.svg": "/Portfolio/static/media/lookingfor.0d9e8728.svg"
   }
 }
