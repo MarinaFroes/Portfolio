@@ -23,25 +23,22 @@ const SocialMediaContainer = styled.div`
 
 const CvLink = styled.a`
   font-size: 1rem;
-  padding: 5px;
+  padding: 0.8rem;
   width: 10rem;
   text-align: center;
-  border-radius: 10px;
-  background-color: MediumOrchid ;
-  color: white;
+  border: 2px solid purple ;
+  color: #000;
   text-decoration: none;
   margin-top: 10px;
   &:hover {
-    text-decoration: underline;
+    background-color: purple;
+    color: #fff;
   }
 `;
 
 const Footer = () => (
   <Section heading="Contact">
     <Contacts>
-      <p>
-        <strong>Do you want to say hello?</strong>
-      </p>
       <CvLink href="https://drive.google.com/file/d/1zzHZKeXA-ZTv2ruP7R4TwJuArrfkqelY/view?usp=sharing" download target="_blank"
         rel="noopener noreferrer">Download my CV</CvLink>
       <SocialMediaContainer>

@@ -1,8 +1,10 @@
+<p align="center"><img src="./src/components/images/logo.png" alt="logo" width="80"/></p>
 
-![Logo](./src/components/images/logo.png) 
-# My Portfolio  
+<h1 align="center">My Portfolio </h1>
 
-![Gif](./src/components/images/Portfolio.gif)
+## Overview
+
+<p align="center"><img src="./src/components/images/Portfolio.gif" alt="screenshot"/></p>
 
 ## Introduction
 
