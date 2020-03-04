@@ -8,8 +8,8 @@ import ScrollAnimation from "react-animate-on-scroll";
 const TimelineContainer = () => (
   <Section heading="Timeline">
     <Timeline>
-      {EVENTS_INFO.map(event => (
-        <ScrollAnimation animateIn="fadeIn" duration={2} animateOnce={true}>
+      {EVENTS_INFO.map((event, index) => (
+        <ScrollAnimation key={index} animateIn="fadeIn" duration={2} animateOnce={true}>
           <Event
             key={event.name}
             interval={event.interval}
