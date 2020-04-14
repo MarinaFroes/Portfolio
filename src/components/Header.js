@@ -1,9 +1,10 @@
 import React from 'react';
 import styled from 'styled-components';
 
-import picture from '../assets/images/MarinaCosta.jpg'; 
+// import picture from '../assets/images/MarinaCosta.jpg'; 
 import { LINKS } from '../utils/links';
-import logo from '../assets/icons/logo.svg'
+import logo from '../assets/icons/logo.svg';
+import BgImg from '../assets/images/laptop-1483974_1920.jpg';
 
 const Header = styled.header`
   display: flex;
@@ -43,33 +44,37 @@ const StyledNav = styled.nav`
 
 const AuthorInfo = styled.div`
   display: flex;
+  background-color: #347B98;
+  background-image: url(${BgImg});
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   text-align: center;
-  background-color: #347B98;
   height: 90vh;
 `;
 
-const Image = styled.img`
-  width: 20vw;
-  height: auto;
-  border-radius: 50%;
-  box-shadow: 4px 3px 14px 0 #455369;
+// const Image = styled.img`
+//   width: 20vw;
+//   height: auto;
+//   border-radius: 50%;
+//   box-shadow: 4px 3px 14px 0 #455369;
 
-  @media only screen and (max-width: 900px){
-    width: 30vw;
-  }
+//   @media only screen and (max-width: 900px){
+//     width: 30vw;
+//   }
 
-  @media only screen and (max-width: 700px){
-    width: 30vw;
-  }
+//   @media only screen and (max-width: 700px){
+//     width: 30vw;
+//   }
 
-  @media only screen and (max-width: 600px){
-    width: 50vw;
-  }
+//   @media only screen and (max-width: 600px){
+//     width: 50vw;
+//   }
 
-`;
+// `;
 
 const AuthorText = styled.div`
   display: flex;
@@ -77,20 +82,21 @@ const AuthorText = styled.div`
   align-items: center;
   padding: 2rem 0;
 `
+  // background: rgba(255, 255, 255, 0.8);
 
 const Title = styled.h2`
-  color: #fff;
+  color: #04082e;
   font-size: 1.6rem;
   font-weight: normal;
-  padding: 0;
+  padding: 0 2rem 2rem 2rem;
   margin: 0;
 `;
 
 const Greeting = styled.h1`
-  color: #fff;
+  color: #04082e;
   font-size: 2rem;
   font-weight: normal;
-  padding: 0;
+  padding: 2rem 2rem 0 2rem;
   margin: 0;
 `
 
@@ -137,7 +143,7 @@ const HeaderContainer = () => (
         <Greeting>Hello, I'm <strong>Marina Costa</strong>.</Greeting>
         <Title>I am a Frontend Developer</Title>
       </AuthorText>
-      <Image src={picture} alt="Profile picture" />
+      {/* <Image src={picture} alt="Profile picture" /> */}
     </AuthorInfo>
   </Header>
 );
