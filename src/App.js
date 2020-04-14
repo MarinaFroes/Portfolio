@@ -4,7 +4,6 @@ import styled from 'styled-components';
 
 import About from './components/About';
 import Header from './components/Header';
-import SkillsContainer from './components/Skills';
 import Footer from './components/Footer';
 import ProjectsContainer from './components/ProjectsContainer';
 import Timeline from './components/Timeline';
@@ -22,7 +21,7 @@ function App() {
       <Header/>
       <About />
       <ProjectsContainer />
-      <SkillsContainer />
+    
       <Timeline />
       <Footer/>
     </Main>
