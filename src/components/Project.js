@@ -24,8 +24,8 @@ const AdditionalInfo = styled.div`
   justify-content: center;
   align-items: center;
   text-align: center;
-  background-color: yellow;
-  opacity: 0.85;
+  background-color: #fff;
+  opacity: 0.90;
   visibility: ${props => props.isVisible ? 'visible' : 'hidden'};
   width: 15rem;
   height: 15rem;
@@ -38,7 +38,7 @@ const ProjectTitle = styled.p`
   font-weight: bold;
   text-align: center;
   padding: 0.1rem;
-  color: purple;
+  color: #347B98;
 `;
 
 const LinksContainer = styled.div`
@@ -52,9 +52,9 @@ const Link = styled.a`
   text-decoration: none;
   color: #000;
   padding: 0.8rem;
-  border: 2px solid purple;
+  border: 2px solid #347B98;
   &:hover {
-    background-color: purple;
+    background-color: #347B98;
     color: #fff;
   }
 `;
