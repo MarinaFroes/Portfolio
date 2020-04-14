@@ -1,8 +1,8 @@
-import arch from './images/arch.svg';
-import berlin from './images/berlin.svg';
-import brazil from './images/brazil.svg';
-import art from './images/art.svg';
-import lookingfor from './images/lookingfor.svg';
+import arch from '../assets/icons/arch.svg';
+import berlin from '../assets/icons/berlin.svg';
+import brazil from '../assets/icons/brazil.svg';
+import art from '../assets/icons/art.svg';
+import lookingfor from '../assets/icons/lookingfor.svg';
 
 export const ABOUT_INFOS = [
   {

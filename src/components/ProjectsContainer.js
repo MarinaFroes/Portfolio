@@ -4,14 +4,14 @@ import ScrollAnimation from "react-animate-on-scroll";
 
 import Section from "./Section";
 import Project from "./Project";
-import MatchingGame from "./images/MatchingGame.png";
-import FroggerClone from "./images/FroggerClone.png";
-import Portfolio from "./images/PortfolioPlainJS.png";
-import WeatherChecker from "./images/WeatherChecker.png";
-import YelpClone from "./images/YelpClone.png";
-import TeaCozy from "./images/TeaCozy.png";
-import WouldYouRather from "./images/WouldYouRather.png";
-import MyReads from "./images/MyReads.png";
+import MatchingGame from "../assets/images/MatchingGame.png";
+import FroggerClone from "../assets/images/FroggerClone.png";
+import Portfolio from "../assets/images/PortfolioPlainJS.png";
+import WeatherChecker from "../assets/images/WeatherChecker.png";
+import YelpClone from "../assets/images/YelpClone.png";
+import TeaCozy from "../assets/images/TeaCozy.png";
+import WouldYouRather from "../assets/images/WouldYouRather.png";
+import MyReads from "../assets/images/MyReads.png";
 
 const MY_PROFILE = "https://github.com/MarinaFroes";
 const MY_GITHUB = "https://marinafroes.github.io";

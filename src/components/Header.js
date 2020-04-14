@@ -1,9 +1,9 @@
 import React from 'react';
 import styled from 'styled-components';
 
-import picture from './images/MarinaCosta.jpg'; 
-import { LINKS } from './links';
-import logo from './images/logo.svg'
+import picture from '../assets/images/MarinaCosta.jpg'; 
+import { LINKS } from '../utils/links';
+import logo from '../assets/icons/logo.svg'
 
 const Header = styled.header`
   display: flex;

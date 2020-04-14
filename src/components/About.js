@@ -5,7 +5,7 @@ import ScrollAnimation from "react-animate-on-scroll";
 
 import Section from "./Section";
 import Info from "./Info";
-import { ABOUT_INFOS } from "./aboutInfo";
+import { ABOUT_INFOS } from "../utils/aboutInfo";
 
 const AboutSection = styled.div`
   display: flex;

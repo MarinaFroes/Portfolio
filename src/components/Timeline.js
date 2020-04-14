@@ -1,7 +1,7 @@
 import React from "react";
 import Section from "./Section";
 import { Timeline, Event } from "react-timeline-scribble";
-import { EVENTS_INFO } from "./eventsInfo";
+import { EVENTS_INFO } from "../utils/eventsInfo";
 import "animate.css/animate.min.css";
 import ScrollAnimation from "react-animate-on-scroll";
 
