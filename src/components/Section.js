@@ -9,6 +9,7 @@ const SectionContainer = styled.section`
 `
 const Content = styled.div`
   display: flex;
+  justify-content: start;
   text-align: left;
   width: 100%;
 `;
