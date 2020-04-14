@@ -27,7 +27,7 @@ const CvLink = styled.a`
   padding: 0.8rem;
   width: 10rem;
   text-align: center;
-  border: 2px solid #347B98 ;
+  border: 2px solid #347B98;
   color: #000;
   text-decoration: none;
   margin-top: 10px;
