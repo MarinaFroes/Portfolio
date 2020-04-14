@@ -1,7 +1,7 @@
 export const LINKS = [
   {
     label: "About me",
-    href: "#about-me"
+    href: "#about"
   },
   {
     label: "Projects",
