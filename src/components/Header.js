@@ -44,7 +44,7 @@ const StyledNav = styled.nav`
 
 const AuthorInfo = styled.div`
   display: flex;
-  background-color: #347B98;
+  background-color: eee;
   background-image: url(${BgImg});
   background-size: cover;
   background-position: center;
@@ -85,7 +85,7 @@ const AuthorText = styled.div`
   // background: rgba(255, 255, 255, 0.8);
 
 const Title = styled.h2`
-  color: #04082e;
+  color: #000;
   font-size: 1.6rem;
   font-weight: normal;
   padding: 0 2rem 2rem 2rem;
@@ -93,7 +93,7 @@ const Title = styled.h2`
 `;
 
 const Greeting = styled.h1`
-  color: #04082e;
+  color: #000;
   font-size: 2rem;
   font-weight: normal;
   padding: 2rem 2rem 0 2rem;
