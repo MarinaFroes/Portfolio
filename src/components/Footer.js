@@ -17,18 +17,15 @@ const Contacts = styled.footer`
   flex-direction: column;
   width: 100%;
   margin: 0;
-  border: 2px solid green;
 `;
 
 const SocialMediaContainer = styled.div`
   padding: 2rem 0rem 0rem 0rem;
-  border: 2px solid blue;
 `;
 
 const CvLink = styled.a`
-  font-size: 1rem;
+  font-size: 1.5rem;
   padding: 0.8rem;
-  width: 10rem;
   text-align: center;
   border: 2px solid #347B98;
   color: #000;
@@ -43,7 +40,7 @@ const CvLink = styled.a`
 const Footer = () => (
   <Section heading="Contact">
     <Contacts>
-      <CvLink href="https://drive.google.com/file/d/1zzHZKeXA-ZTv2ruP7R4TwJuArrfkqelY/view?usp=sharing" download target="_blank"
+      <CvLink href="https://drive.google.com/file/d/1PC8hpu6M3Cz78F6egeJYqKAWhWUOl3bK/view?usp=sharing" download target="_blank"
         rel="noopener noreferrer">Download my CV</CvLink>
       <SocialMediaContainer>
         <SocialMedia icon={<FaEnvelope />} address={`mailto:${MY_GMAIL}`} />
