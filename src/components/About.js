@@ -22,6 +22,7 @@ const AboutMeContainer = styled.div`
 
   @media only screen and (max-width: 700px){
     width: 80%;
+    flex-direction: column;
   }
 `;
 
@@ -35,9 +36,13 @@ const UserDiv = styled.div`
 
 const AboutMeText = styled.div`
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: start;
+  padding: 2rem;
+
+  @media only screen and (max-width: 1366px){
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+  }
 `;
 
 const Heading = styled.p`
@@ -59,15 +64,31 @@ const Info = styled.div`
 const Paragraph = styled.p`
   padding: 0.5rem 2rem;
   margin: 0;
-  font-size: 1rem;
+  font-size: 1.2rem;
 `;
 
 const Image = styled.img`
-  width: 20vw;
-  flex-grow: 1;
+  width: 10vw;
+  
   margin: 1rem;
   border-radius: 50%;
   box-shadow: 4px 3px 14px 0 #455369;
+
+  @media only screen and (max-width: 1440px){
+    width: 15vw;
+  }
+
+  @media only screen and (max-width: 1366px){
+    width: 20vw;
+  }
+
+  @media only screen and (max-width: 1080px){
+    width: 25vw;
+  }
+
+  @media only screen and (max-width: 700px){
+    width: 33vw;
+  }
 `;
 
 
