@@ -17,14 +17,17 @@ const Header = styled.header`
   width: 100%;
 `;
 
-const HeroImage = styled.div`
+const ImageContainer = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
   text-align: center;
-  height: 90%;
-  border: 2px solid red;
+  height: 100%;
+`;
+
+const StyledImg = styled.img`
+  opacity: 0.7;
 `;
 
 const HeadingContainer = styled.div`
@@ -33,48 +36,37 @@ const HeadingContainer = styled.div`
   align-items: center;
   padding: 2rem 0;
   position: absolute;
+  top: 10%;
   z-index: 100;
-  background: rgba(255, 255, 255, 0.8);
 
-  @media only screen and (max-width: 700px){
-    padding: 1.2rem 0;
-  }
-  @media only screen and (max-width: 500px){
-    padding: 1rem 0;
+  @media only screen and (max-width: 1000px){
+    background: rgba(255, 255, 255, 0.7);
   }
 `
 
 const Heading = styled.h2`
   color: #000;
-  font-size: 1.6rem;
+  font-family: Gochi Hand, Times New Roman;
+  font-size: 5rem;
   font-weight: normal;
-  padding: 0 2rem 2rem 2rem;
-  margin: 0;
-  text-shadow: 2px 2px #fff;
-
-  @media only screen and (max-width: 700px){
-    font-size: 1.2rem;
-  }
-  @media only screen and (max-width: 500px){
-    font-size: 1rem;
-  }
+  padding: 1rem 3rem;
+  margin: auto;
 `;
-
 
 const HeaderContainer = () => (
   <Header>
     <NavBar />
-    <HeroImage>
-      <img
+    <ImageContainer>
+      <StyledImg
         src={BgImg640}
         srcSet={`${BgImg1920} 1920w, ${BgImg1600} 1600w, ${BgImg1440} 1440w, ${BgImg1366} 1366w, ${BgImg1024} 1024w, ${BgImg768} 768w, ${BgImg640} 640w`}
         size="100vw"
         alt=""
       />
       <HeadingContainer>
-        <Heading>Frontend Development Portfolio</Heading>
+        <Heading>Marina Costa's Portfolio</Heading>
       </HeadingContainer>
-    </HeroImage>
+    </ImageContainer>
   </Header>
 );
 
