@@ -93,7 +93,7 @@ const Image = styled.img`
 
 
 const About = () => (
-  <Section heading="About">
+  <Section heading="About me">
     <AboutMeContainer>
       <UserDiv>
         <Image

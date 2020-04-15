@@ -1,15 +1,11 @@
 export const LINKS = [
   {
     label: "About me",
-    href: "#about"
+    href: "#about-me"
   },
   {
     label: "Projects",
     href: "#projects"
-  },
-  {
-    label: "Timeline",
-    href: "#timeline"
   },
   {
     label: "Contact",
