@@ -17,7 +17,7 @@ const Content = styled.div`
 `;
 
 const Heading = styled.h1`
-  font-size: 2.5rem;
+  font-size: 2rem;
   text-align: left;
   margin: 2rem 2rem 0rem 4rem;
 `
