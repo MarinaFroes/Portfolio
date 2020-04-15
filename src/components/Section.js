@@ -7,8 +7,8 @@ const SectionContainer = styled.section`
   margin: 0;
   padding: 2rem 0;
   width: 100%;
-  border: 2px solid red;
-`
+`;
+
 const Content = styled.div`
   display: flex;
   justify-content: start;
@@ -20,7 +20,7 @@ const Heading = styled.h1`
   font-size: 2rem;
   text-align: left;
   margin: 2rem 2rem 0rem 4rem;
-`
+`;
 
 const Section = ({ heading, children }) => (
   <SectionContainer>
