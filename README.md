@@ -1,10 +1,10 @@
-<p align="center"><img src="./src/components/images/logo.png" alt="logo" width="80"/></p>
+<p align="center"><img src="./src/assets/icons/logo.svg" alt="logo" width="80"/></p>
 
 <h1 align="center">My Portfolio </h1>
 
 ## Overview
 
-<p align="center"><img src="./src/components/images/Portfolio.gif" alt="screenshot"/></p>
+<p align="center"><img src="./src/assets/images/ScreenShot.png" alt="screenshot"/></p>
 
 ## Introduction
 
