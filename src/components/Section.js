@@ -17,8 +17,9 @@ const Content = styled.div`
 `;
 
 const Heading = styled.h1`
+  font-size: 2.5rem;
   text-align: left;
-  margin: 1.5rem 1.5rem 0rem 3rem;
+  margin: 2rem 2rem 0rem 4rem;
 `
 
 const Section = ({ heading, children }) => (
