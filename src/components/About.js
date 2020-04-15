@@ -2,7 +2,11 @@ import React from "react";
 import styled from "styled-components";
 
 import Section from "./Section";
-import picture from "../assets/images/MarinaCosta.jpg"; 
+import MyPic256 from "../assets/images/MarinaCosta_256.jpg";
+import MyPic341 from "../assets/images/MarinaCosta_341.jpg";
+import MyPic455 from "../assets/images/MarinaCosta_455.jpg";
+import MyPic533 from "../assets/images/MarinaCosta_533.jpg";
+import MyPic640 from "../assets/images/MarinaCosta_640.jpg";
 import SkillsContainer from "./SkillsContainer";
 
 
@@ -59,35 +63,28 @@ const Paragraph = styled.p`
 `;
 
 const Image = styled.img`
-  width: 30%;
+  width: 20vw;
   flex-grow: 1;
   margin: 1rem;
   border-radius: 50%;
   box-shadow: 4px 3px 14px 0 #455369;
 `;
-/**
- *   @media only screen and (max-width: 900px){
-    width: 30vw;
-  }
 
-  @media only screen and (max-width: 700px){
-    width: 30vw;
-  }
-
-  @media only screen and (max-width: 600px){
-    width: 50vw;
-  }
- */
 
 const About = () => (
   <Section heading="About">
     <AboutMeContainer>
       <UserDiv>
-        <Image src={picture} alt="Profile picture" />
+        <Image
+          src={MyPic256}
+          srcSet={`${MyPic640} 640w, ${MyPic533} 533w, ${MyPic455} 455w, ${MyPic341} 341w, ${MyPic256} 256w`}
+          size="33.3vw"
+          alt="author picture"
+        />
       </UserDiv>
       <AboutMeText>
         <Info>
-          <Heading>A brief introduction</Heading>
+          <Heading>Hello, I'm Marina!</Heading>
           <Paragraph>
             I am a <strong>Junior Front-End Developer</strong> with background is in Civil Architecture currently living in <strong>Berlin, Germany</strong>.
           </Paragraph>
@@ -104,21 +101,6 @@ const About = () => (
         </Skills>
       </AboutMeText>
     </AboutMeContainer>
-    
-    
-    {/* <AboutSection>
-      {ABOUT_INFOS.map((aboutInfo, index) => (
-        <ScrollAnimation key={index} animateIn="fadeIn" duration={2} animateOnce={true}>
-          <Info
-            key={aboutInfo.src}
-            title={aboutInfo.title}
-            src={aboutInfo.src}
-            alt={aboutInfo.alt}
-            subtitle={aboutInfo.subtitle}
-            />
-        </ScrollAnimation>
-      ))}
-    </AboutSection> */}
   </Section>
 );
 
