@@ -6,7 +6,6 @@ import About from './components/About';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import ProjectsContainer from './components/ProjectsContainer';
-import Timeline from './components/Timeline';
 
 const Main = styled.main`
   display: flex;
@@ -21,8 +20,6 @@ function App() {
       <Header/>
       <About />
       <ProjectsContainer />
-    
-      <Timeline />
       <Footer/>
     </Main>
   );
