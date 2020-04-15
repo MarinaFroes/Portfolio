@@ -16,10 +16,13 @@ const Contacts = styled.footer`
   align-items: center;
   flex-direction: column;
   width: 100%;
+  margin: 0;
+  border: 2px solid green;
 `;
 
 const SocialMediaContainer = styled.div`
-  padding: 30px;
+  padding: 2rem 0rem 0rem 0rem;
+  border: 2px solid blue;
 `;
 
 const CvLink = styled.a`
