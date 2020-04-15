@@ -4,8 +4,12 @@ import PropTypes from 'prop-types';
 
 const Icon = styled.a`
   color: silver;
-  padding: 20px;
+  padding: 0;
+  margin: 20px;
   font-size: 30px;
+  &:hover {
+    color: #347B98;
+  }
 `
 
 const SocialMedia = ({ icon, address }) => (
