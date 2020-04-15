@@ -14,6 +14,7 @@ const ProjectsSection = styled.div`
   flex-wrap: wrap;
   justify-content: center;
   width: 100%;
+  margin-top: 2rem;
 `;
 
 const Projects = () => (
