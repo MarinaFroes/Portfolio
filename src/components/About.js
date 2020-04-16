@@ -65,6 +65,11 @@ const Paragraph = styled.p`
   padding: 0.5rem 2rem;
   margin: 0;
   font-size: 1.2rem;
+
+  @media only screen and (max-width: 800px){
+    font-size: 16px;
+  }
+
 `;
 
 const Image = styled.img`

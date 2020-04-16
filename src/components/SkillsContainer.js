@@ -38,6 +38,10 @@ const SkillTitle = styled.p`
   margin: 0;
   color: #347B98;
   text-align: center;
+
+  @media only screen and (max-width: 800px){
+    font-size: 16px;
+  }
 `;
 
 const SkillDiv = styled.div`
