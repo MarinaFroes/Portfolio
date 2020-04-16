@@ -24,6 +24,10 @@ const AboutMeContainer = styled.div`
     width: 80%;
     flex-direction: column;
   }
+
+  @media only screen and (max-width: 500px){
+    width: 100%;
+  }
 `;
 
 const UserDiv = styled.div`
@@ -51,6 +55,10 @@ const Heading = styled.p`
   padding: 0 2rem;
   margin: 0;
   margin-top: 2rem;
+
+  @media only screen and (max-width: 800px){
+    font-size: 20px;
+  }
 `;
 
 const Skills = styled.div`
@@ -67,7 +75,7 @@ const Paragraph = styled.p`
   font-size: 1.2rem;
 
   @media only screen and (max-width: 800px){
-    font-size: 16px;
+    font-size: 18px;
   }
 
 `;
