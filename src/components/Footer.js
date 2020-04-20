@@ -40,7 +40,7 @@ const CvLink = styled.a`
 const Footer = () => (
   <Section heading="Contact">
     <Contacts>
-      <CvLink href="https://drive.google.com/file/d/1PC8hpu6M3Cz78F6egeJYqKAWhWUOl3bK/view?usp=sharing" download target="_blank"
+      <CvLink href="https://drive.google.com/file/d/19TIoQT426FS3oRAE-J7WkUZQtxBrgqoc/view?usp=sharing" download target="_blank"
         rel="noopener noreferrer">Download my CV</CvLink>
       <SocialMediaContainer>
         <SocialMedia icon={<FaEnvelope />} address={`mailto:${MY_GMAIL}`} />
