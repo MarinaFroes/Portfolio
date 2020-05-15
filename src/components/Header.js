@@ -20,37 +20,43 @@ const Header = styled.header`
 const ImageContainer = styled.div`
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
-  align-items: center;
   text-align: center;
-  height: 100%;
+  height: 0;
+  width: 100%;
+  padding-top: 55%;
+  position: relative;
 `;
 
 const StyledImg = styled.img`
   opacity: 0.7;
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+
+  @media only screen and (max-width: 1000px){
+    opacity: 0.5;
+  }
 `;
 
 const HeadingContainer = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 2rem 0;
+  padding: 0.5rem 0;
   position: absolute;
   top: 10%;
   z-index: 100;
-
-  @media only screen and (max-width: 1000px){
-    background: rgba(255, 255, 255, 0.7);
-  }
+  text-align: center;
+  width: 100%;
 `
 
 const Heading = styled.h2`
   color: #000;
-  font-family: Gochi Hand, Times New Roman;
+  font-family: 'GochiHand', 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
   font-size: 5rem;
   font-weight: normal;
-  padding: 1rem 3rem;
-  margin: auto;
+  left: 50%;
 `;
 
 const HeaderContainer = () => (
