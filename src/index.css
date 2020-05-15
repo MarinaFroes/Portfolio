@@ -1,4 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Gochi+Hand&display=swap');
+@font-face {
+  font-family: 'GochiHand';
+  src: local('GochiHand'), url(./fonts/GochiHand-Regular.ttf) format('truetype');
+}
 
 html {
   font-size: 1em;
