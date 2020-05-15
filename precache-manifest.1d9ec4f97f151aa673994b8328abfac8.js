@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ffbc48f5f9a55e7ef764e3799b57c733",
+    "revision": "8f9f20127a66d4fa94b13bbae4f5e098",
     "url": "/Portfolio/index.html"
   },
   {
-    "revision": "3c2afc93e21ccf8ec57b",
-    "url": "/Portfolio/static/css/main.5abaeba6.chunk.css"
+    "revision": "7f3057878c59aec8dbd2",
+    "url": "/Portfolio/static/css/main.219934ea.chunk.css"
   },
   {
     "revision": "9a8312524c6cfc161738",
     "url": "/Portfolio/static/js/2.1a3a6cc4.chunk.js"
   },
   {
-    "revision": "3c2afc93e21ccf8ec57b",
-    "url": "/Portfolio/static/js/main.d2fba701.chunk.js"
+    "revision": "7f3057878c59aec8dbd2",
+    "url": "/Portfolio/static/js/main.3ac5effb.chunk.js"
   },
   {
     "revision": "6b64d540f1308ee928ad",
@@ -22,6 +22,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "823120f97aa993b8f7aa97c70bebd100",
     "url": "/Portfolio/static/media/FroggerClone.823120f9.png"
+  },
+  {
+    "revision": "9b48452cfcc1da9b1f684f991cb3d1e3",
+    "url": "/Portfolio/static/media/GochiHand-Regular.9b48452c.ttf"
   },
   {
     "revision": "9998edcb7fe2280a1f51ddd97c0e0fe5",
