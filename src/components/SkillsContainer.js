@@ -1,8 +1,9 @@
 import React from "react";
 import styled from "styled-components";
-import { InlineIcon } from "@iconify/react";
+import { Icon, InlineIcon } from "@iconify/react";
 import reduxIcon from "@iconify/icons-simple-icons/redux";
 import { FaReact, FaCss3Alt, FaHtml5, FaJsSquare } from "react-icons/fa";
+import typescriptIcon from '@iconify/icons-simple-icons/typescript';
 
 const SKILLS = [
   {
@@ -24,6 +25,10 @@ const SKILLS = [
   {
     name: "HTML",
     icon: <FaHtml5 />
+  },
+  {
+    name: "Typescript",
+    icon: <Icon icon={typescriptIcon} />
   }
 ];
 

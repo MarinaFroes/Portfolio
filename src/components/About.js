@@ -77,12 +77,10 @@ const Paragraph = styled.p`
   @media only screen and (max-width: 800px){
     font-size: 18px;
   }
-
 `;
 
 const Image = styled.img`
   width: 10vw;
-  
   margin: 1rem;
   border-radius: 50%;
   box-shadow: 4px 3px 14px 0 #455369;
@@ -120,7 +118,7 @@ const About = () => (
         <Info>
           <Heading>Hello, I'm Marina!</Heading>
           <Paragraph>
-            I am a <strong>Junior Front-End Developer</strong> with background is in Civil Architecture currently living in <strong>Berlin, Germany</strong>.
+            I am a <strong>Front-End Developer</strong> with background is in Civil Architecture currently living in <strong>Berlin, Germany</strong>.
           </Paragraph>
           <Paragraph>
             I aspire to work in a great company where I can leverage my knowledge of Web Development Technologies and contribute to its operations. Therefore, I welcome new opportunities for Front-End or Web Development roles.
