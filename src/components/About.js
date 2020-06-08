@@ -36,6 +36,10 @@ const UserDiv = styled.div`
   justify-content: center;
   align-items: center;
   border-right: 2px solid #e6e6e6;
+
+  @media only screen and (max-width: 700px){
+    border: none;
+  }
 `
 
 const AboutMeText = styled.div`
