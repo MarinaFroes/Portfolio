@@ -79,6 +79,7 @@ export const PROJECTS_INFO = [
     src: `${TeaCozy}`,
     alt: "Screenshot of the Tea Cozy Project",
     link: `/Tea-Cozy/`,
+    isDeployed: true,
     technologies: 'React.js'
   }
 ];
