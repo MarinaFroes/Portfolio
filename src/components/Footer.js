@@ -49,7 +49,6 @@ const Footer = () => (
         <SocialMedia icon={<FaLinkedin />} address={MY_LINKEDIN} />
         <SocialMedia icon={<FaTwitter />} address={MY_TWITTER} />
         <SocialMedia icon={<FaDev />} address={MY_DEV} />
-
       </SocialMediaContainer>
     </Contacts>
   </Section>
