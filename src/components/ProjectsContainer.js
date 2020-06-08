@@ -26,7 +26,7 @@ const Projects = () => (
             title={project.title}
             src={project.src}
             alt={project.alt}
-            project={`${MY_GITHUB}${project.link}`}
+            project={project.isDeployed ? `${MY_GITHUB}${project.link}` : null}
             code={`${MY_PROFILE}${project.link}`}
             technologies={project.technologies}
           />

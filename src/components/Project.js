@@ -98,7 +98,10 @@ class Project extends React.Component{
           <ProjectTitle>{title}</ProjectTitle>
           <Technologies><strong>Technologies:</strong> {technologies}</Technologies>
           <LinksContainer>
-            <Link href={project} target="_blank" rel="noopener noreferrer">View Project</Link>
+            {
+              project
+              && <Link href={project} target="_blank" rel="noopener noreferrer">View Project</Link>
+            }
             <Link href={code} target="_blank" rel="noopener noreferrer">View Code</Link>
           </LinksContainer>
         </AdditionalInfo>

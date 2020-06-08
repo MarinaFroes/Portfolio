@@ -6,13 +6,24 @@ import YelpClone from "../assets/images/YelpClone.png";
 import TeaCozy from "../assets/images/TeaCozy.png";
 import WouldYouRather from "../assets/images/WouldYouRather.png";
 import MyReads from "../assets/images/MyReads.png";
+import EventPlanner from "../assets/images/EventPlanner.png";
+
 
 export const PROJECTS_INFO = [
+  {
+    title: "Event Planner",
+    src: `${EventPlanner}`,
+    alt: "Screenshot of the Event Planner Project",
+    link: "/Event_Planner",
+    isDeployed: false,
+    technologies: 'React.js, Redux, Typescript'
+  },
   {
     title: "My Reads App",
     src: `${MyReads}`,
     alt: "Screenshot of the My Reads Project",
     link: "/RDND-project1-MyReads/#/",
+    isDeployed: true,
     technologies: 'React.js'
   },
   {
@@ -20,6 +31,7 @@ export const PROJECTS_INFO = [
     src: `${WouldYouRather}`,
     alt: "Screenshot of the Would You Rather  Project",
     link: "/RDND-project2-WouldYouRather/#/",
+    isDeployed: true,
     technologies: 'React.js, Redux'
   },
   {
@@ -27,6 +39,7 @@ export const PROJECTS_INFO = [
     src: `${FroggerClone}`,
     alt: "Screenshot of the Frogger Clone Project",
     link: "/FEND-project3-Arcade-Game-Clone/",
+    isDeployed: true,
     technologies: 'JavaScript, CSS3, HTML5'
   },
   {
@@ -34,6 +47,7 @@ export const PROJECTS_INFO = [
     src: `${MatchingGame}`,
     alt: "Screenshot of the Matching Game Project",
     link: `/FEND-project2-Matching-Game/`,
+    isDeployed: true,
     technologies: 'JavaScript, CSS3, HTML5'
   },
   {
@@ -41,6 +55,7 @@ export const PROJECTS_INFO = [
     src: `${Portfolio}`,
     alt: "Screenshot of the Portfolio webpage",
     link: `/FEND-project1-Portfolio/`,
+    isDeployed: true,
     technologies: 'CSS3, HTML5'
   },
   {
@@ -48,6 +63,7 @@ export const PROJECTS_INFO = [
     src: `${YelpClone}`,
     alt: "Screenshot of the Yelp Clone Project",
     link: `/Ravenous-Codecademy/`,
+    isDeployed: true,
     technologies: 'React.js'
   },
   {
@@ -55,6 +71,7 @@ export const PROJECTS_INFO = [
     src: `${WeatherChecker}`,
     alt: "Screenshot of the Weather Checker Project",
     link: `/Check-Weather/`,
+    isDeployed: true,
     technologies: 'React.js'
   },
   {
