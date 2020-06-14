@@ -56,7 +56,7 @@ const NavLink = styled.a`
 
 const NavBar = () => (
   <StyledNav>
-    <StyledLogo href="/" rel="noopener noreferrer">
+    <StyledLogo href="/#" rel="noopener noreferrer">
       <Logo src={logo} alt="" />
     </StyledLogo>
     <LinksContainer>
