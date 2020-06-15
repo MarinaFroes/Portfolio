@@ -100,7 +100,7 @@ class Project extends React.Component{
           <LinksContainer>
             {
               project
-              && <Link href={project} target="_blank" rel="noopener noreferrer">View Project</Link>
+              && <Link href={project} target="_blank" rel="noopener noreferrer">View Page</Link>
             }
             <Link href={code} target="_blank" rel="noopener noreferrer">View Code</Link>
           </LinksContainer>

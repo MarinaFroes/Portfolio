@@ -1,6 +1,5 @@
 import MatchingGame from "../assets/images/MatchingGame.png";
 import FroggerClone from "../assets/images/FroggerClone.png";
-import Portfolio from "../assets/images/PortfolioPlainJS.png";
 import WeatherChecker from "../assets/images/WeatherChecker.png";
 import YelpClone from "../assets/images/YelpClone.png";
 import TeaCozy from "../assets/images/TeaCozy.png";
@@ -49,14 +48,6 @@ export const PROJECTS_INFO = [
     link: `/FEND-project2-Matching-Game/`,
     isDeployed: true,
     technologies: 'JavaScript, CSS3, HTML5'
-  },
-  {
-    title: "Portfolio webpage",
-    src: `${Portfolio}`,
-    alt: "Screenshot of the Portfolio webpage",
-    link: `/FEND-project1-Portfolio/`,
-    isDeployed: true,
-    technologies: 'CSS3, HTML5'
   },
   {
     title: "Yelp Clone",
