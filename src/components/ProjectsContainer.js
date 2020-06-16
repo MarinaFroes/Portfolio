@@ -1,13 +1,14 @@
 import React from "react";
 import styled from "styled-components";
 import ScrollAnimation from "react-animate-on-scroll";
-
-import Section from "./Section";
 import Project from "./Project";
-import { PROJECTS_INFO } from "../utils/projectInfo";
+import Section from "./Section";
 
 const MY_PROFILE = "https://github.com/MarinaFroes";
 const MY_GITHUB = "https://marinafroes.github.io";
+
+// import ShowProject from "./ShowProject";
+
 
 const ProjectsSection = styled.div`
   display: flex;
@@ -17,10 +18,10 @@ const ProjectsSection = styled.div`
   margin-top: 2rem;
 `;
 
-const Projects = () => (
-  <Section heading="Projects">
+const ProjectsContainer = ({ projectInfo, heading }) => (
+  <Section heading={heading}>
     <ProjectsSection>
-      {PROJECTS_INFO.map((project, index) => (
+      {projectInfo.map((project, index) => (
         <ScrollAnimation key={index} animateIn="fadeIn" duration={2} animateOnce={false}>
           <Project
             title={project.title}
@@ -32,9 +33,8 @@ const Projects = () => (
           />
         </ScrollAnimation>
       ))}
-      
     </ProjectsSection>
   </Section>
 );
 
-export default Projects;
+export default ProjectsContainer;
