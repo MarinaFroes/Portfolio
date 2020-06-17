@@ -17,7 +17,7 @@ export const CHALLENGES_INFO = [
     src: `${HuddlePage}`,
     alt: "Screenshot of the Huddle Landing Page Challenge",
     link: "/frontend-mentor-huddle-landing-page/",
-    isDeployed: false,
+    isDeployed: true,
     technologies: "HTML, CSS"
   },
   {
