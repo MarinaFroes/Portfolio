@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "dc18c7c69fdea767c64616588741e08f",
+    "revision": "f901179c52720b8af192b2bf21674357",
     "url": "/Portfolio/index.html"
   },
   {
-    "revision": "fb3991df1ab8a17b4e25",
+    "revision": "b565b1b8ba7808be3bd8",
     "url": "/Portfolio/static/css/main.219934ea.chunk.css"
   },
   {
-    "revision": "b0be54f9e3ad6425ca72",
-    "url": "/Portfolio/static/js/2.a29e787a.chunk.js"
+    "revision": "7e206e5e939dc16cfdcc",
+    "url": "/Portfolio/static/js/2.ad6b05ce.chunk.js"
   },
   {
-    "revision": "fb3991df1ab8a17b4e25",
-    "url": "/Portfolio/static/js/main.61bbfe01.chunk.js"
+    "revision": "b565b1b8ba7808be3bd8",
+    "url": "/Portfolio/static/js/main.ef30a90f.chunk.js"
   },
   {
     "revision": "6b64d540f1308ee928ad",
@@ -44,24 +44,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Portfolio/static/media/HuddlePage.c266e072.png"
   },
   {
-    "revision": "9998edcb7fe2280a1f51ddd97c0e0fe5",
-    "url": "/Portfolio/static/media/MarinaCosta_256.9998edcb.jpg"
-  },
-  {
-    "revision": "045418949b40af4bcbc44b030641d662",
-    "url": "/Portfolio/static/media/MarinaCosta_341.04541894.jpg"
-  },
-  {
-    "revision": "0e40b0bcfda6e01b8f2b9c76e630f89c",
-    "url": "/Portfolio/static/media/MarinaCosta_455.0e40b0bc.jpg"
-  },
-  {
-    "revision": "23cdde2535fc77dfb1d840600998c52f",
-    "url": "/Portfolio/static/media/MarinaCosta_533.23cdde25.jpg"
-  },
-  {
-    "revision": "28b809c7c220ee0eca46bec8c65c6622",
-    "url": "/Portfolio/static/media/MarinaCosta_640.28b809c7.jpg"
+    "revision": "3d0a8fabb837ca02c41dd41134a44638",
+    "url": "/Portfolio/static/media/MarinaCosta.3d0a8fab.jpg"
   },
   {
     "revision": "83dc26a2b0ca9693f79d800351e293dc",
