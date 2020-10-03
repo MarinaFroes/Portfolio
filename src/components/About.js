@@ -2,11 +2,7 @@ import React from "react";
 import styled from "styled-components";
 
 import Section from "./Section";
-import MyPic256 from "../assets/images/MarinaCosta_256.jpg";
-import MyPic341 from "../assets/images/MarinaCosta_341.jpg";
-import MyPic455 from "../assets/images/MarinaCosta_455.jpg";
-import MyPic533 from "../assets/images/MarinaCosta_533.jpg";
-import MyPic640 from "../assets/images/MarinaCosta_640.jpg";
+import MyPic from "../assets/images/MarinaCosta.jpg";
 import SkillsContainer from "./SkillsContainer";
 
 
@@ -112,9 +108,7 @@ const About = () => (
     <AboutMeContainer>
       <UserDiv>
         <Image
-          src={MyPic256}
-          srcSet={`${MyPic640} 640w, ${MyPic533} 533w, ${MyPic455} 455w, ${MyPic341} 341w, ${MyPic256} 256w`}
-          size="33.3vw"
+          src={MyPic}
           alt="author picture"
         />
       </UserDiv>
