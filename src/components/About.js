@@ -112,14 +112,8 @@ const About = () => (
           <Heading>Hello, I'm Marina!</Heading>
           <Paragraph>
             I am a <strong>Fullstack Developer @ Integrify</strong> with
-            background in Architecture currently living in{' '}
+            background in Architecture currently living in
             <strong>Berlin, Germany</strong>.
-          </Paragraph>
-          <Paragraph>
-            I aspire to work in a great company where I can leverage my
-            knowledge of Web Development Technologies and contribute to its
-            operations. Therefore, I welcome new opportunities for Frontend or
-            Fullstack roles.
           </Paragraph>
           <Paragraph>
             Do you want to work with me? Integrify provides consulting and
