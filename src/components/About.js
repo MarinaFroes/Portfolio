@@ -1,10 +1,9 @@
-import React from "react";
-import styled from "styled-components";
+import React from 'react'
+import styled from 'styled-components'
 
-import Section from "./Section";
-import MyPic from "../assets/images/MarinaCosta.jpg";
-import SkillsContainer from "./SkillsContainer";
-
+import Section from './Section'
+import MyPic from '../assets/images/MarinaCosta.jpg'
+import SkillsContainer from './SkillsContainer'
 
 const AboutMeContainer = styled.div`
   box-shadow: 4px 3px 14px 0 rgba(179, 179, 204, 1);
@@ -16,15 +15,15 @@ const AboutMeContainer = styled.div`
   margin-right: auto;
   position: relative;
 
-  @media only screen and (max-width: 700px){
+  @media only screen and (max-width: 700px) {
     width: 80%;
     flex-direction: column;
   }
 
-  @media only screen and (max-width: 500px){
+  @media only screen and (max-width: 500px) {
     width: 100%;
   }
-`;
+`
 
 const UserDiv = styled.div`
   padding: 3rem;
@@ -33,7 +32,7 @@ const UserDiv = styled.div`
   align-items: center;
   border-right: 2px solid #e6e6e6;
 
-  @media only screen and (max-width: 700px){
+  @media only screen and (max-width: 700px) {
     border: none;
   }
 `
@@ -42,12 +41,12 @@ const AboutMeText = styled.div`
   display: flex;
   padding: 2rem;
 
-  @media only screen and (max-width: 1366px){
+  @media only screen and (max-width: 1366px) {
     flex-direction: column;
     justify-content: center;
     align-items: start;
   }
-`;
+`
 
 const Heading = styled.p`
   font-size: 1.5rem;
@@ -56,28 +55,28 @@ const Heading = styled.p`
   margin: 0;
   margin-top: 2rem;
 
-  @media only screen and (max-width: 800px){
+  @media only screen and (max-width: 800px) {
     font-size: 20px;
   }
-`;
+`
 
 const Skills = styled.div`
   width: 100%;
-`;
+`
 
 const Info = styled.div`
   text-align: left;
-`;
+`
 
 const Paragraph = styled.p`
   padding: 0.5rem 2rem;
   margin: 0;
   font-size: 1.2rem;
 
-  @media only screen and (max-width: 800px){
+  @media only screen and (max-width: 800px) {
     font-size: 18px;
   }
-`;
+`
 
 const Image = styled.img`
   width: 10vw;
@@ -85,53 +84,57 @@ const Image = styled.img`
   border-radius: 50%;
   box-shadow: 4px 3px 14px 0 #455369;
 
-  @media only screen and (max-width: 1440px){
+  @media only screen and (max-width: 1440px) {
     width: 15vw;
   }
 
-  @media only screen and (max-width: 1366px){
+  @media only screen and (max-width: 1366px) {
     width: 20vw;
   }
 
-  @media only screen and (max-width: 1080px){
+  @media only screen and (max-width: 1080px) {
     width: 25vw;
   }
 
-  @media only screen and (max-width: 700px){
+  @media only screen and (max-width: 700px) {
     width: 33vw;
   }
-`;
-
+`
 
 const About = () => (
-  <Section heading="About me">
+  <Section heading='About me'>
     <AboutMeContainer>
       <UserDiv>
-        <Image
-          src={MyPic}
-          alt="author picture"
-        />
+        <Image src={MyPic} alt='author picture' />
       </UserDiv>
       <AboutMeText>
         <Info>
           <Heading>Hello, I'm Marina!</Heading>
           <Paragraph>
-            I am a <strong>Front-End Developer</strong> with background is in Civil Architecture currently living in <strong>Berlin, Germany</strong>.
+            I am a <strong>Fullstack Developer @ Integrify</strong> with
+            background in Architecture currently living in{' '}
+            <strong>Berlin, Germany</strong>.
           </Paragraph>
           <Paragraph>
-            I aspire to work in a great company where I can leverage my knowledge of Web Development Technologies and contribute to its operations. Therefore, I welcome new opportunities for Front-End or Web Development roles.
+            I aspire to work in a great company where I can leverage my
+            knowledge of Web Development Technologies and contribute to its
+            operations. Therefore, I welcome new opportunities for Frontend or
+            Fullstack roles.
           </Paragraph>
           <Paragraph>
-            You can check a few of my projects bellow.
+            Do you want to work with me? Integrify provides consulting and
+            recruitment services for companies. Let’s talk more via Joona
+            Ohra-aho: joona@integrify.io / +358 400 579 588.
           </Paragraph>
+          <Paragraph>You can check a few of my projects bellow.</Paragraph>
         </Info>
         <Skills>
           <Heading>Main skills</Heading>
-          <SkillsContainer/>
+          <SkillsContainer />
         </Skills>
       </AboutMeText>
     </AboutMeContainer>
   </Section>
-);
+)
 
-export default About;
+export default About
