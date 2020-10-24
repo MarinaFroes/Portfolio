@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3650ae23dd3cb8b6f88d726cca2c7617",
+    "revision": "e7ff8dc483afb97bd248cff3d8c89cf9",
     "url": "/Portfolio/index.html"
   },
   {
-    "revision": "35f0ce5fc53603de43c2",
+    "revision": "a3460207df9a9eba19ff",
     "url": "/Portfolio/static/css/main.13e972e7.chunk.css"
   },
   {
-    "revision": "8223541846bfceac7471",
-    "url": "/Portfolio/static/js/2.4d890566.chunk.js"
+    "revision": "f6990fd2f4bfb4972d70",
+    "url": "/Portfolio/static/js/2.026650cb.chunk.js"
   },
   {
-    "revision": "35f0ce5fc53603de43c2",
-    "url": "/Portfolio/static/js/main.d756b10f.chunk.js"
+    "revision": "a3460207df9a9eba19ff",
+    "url": "/Portfolio/static/js/main.4b30f4db.chunk.js"
   },
   {
     "revision": "6b64d540f1308ee928ad",
@@ -60,20 +60,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Portfolio/static/media/SinglePriceGrid.576aa8ae.png"
   },
   {
-    "revision": "ae5296ce794a42fac563e4b9799df1e6",
-    "url": "/Portfolio/static/media/TeaCozy.ae5296ce.png"
-  },
-  {
-    "revision": "96cb3243f117bc4a4359aea19c4bc8c4",
-    "url": "/Portfolio/static/media/WeatherChecker.96cb3243.png"
+    "revision": "1cefe46bf892badc556d07f09b80f333",
+    "url": "/Portfolio/static/media/TowelShop.1cefe46b.png"
   },
   {
     "revision": "ce93ba211680c257f5c7da902d887b79",
     "url": "/Portfolio/static/media/WouldYouRather.ce93ba21.png"
-  },
-  {
-    "revision": "2ed11ca0b34b1e7b093fdb2981f3692f",
-    "url": "/Portfolio/static/media/YelpClone.2ed11ca0.png"
   },
   {
     "revision": "aa0ccd235f4b4b0395f1818761214e46",
