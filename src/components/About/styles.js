@@ -1,11 +1,6 @@
-import React from 'react'
 import styled from 'styled-components'
 
-import Section from './Section'
-import MyPic from '../assets/images/MarinaCosta.jpg'
-import SkillsContainer from './SkillsContainer'
-
-const AboutMeContainer = styled.div`
+export const AboutMeContainer = styled.div`
   box-shadow: 4px 3px 14px 0 rgba(179, 179, 204, 1);
   border-radius: 0.5rem;
   display: flex;
@@ -25,7 +20,7 @@ const AboutMeContainer = styled.div`
   }
 `
 
-const UserDiv = styled.div`
+export const UserDiv = styled.div`
   padding: 3rem;
   display: flex;
   justify-content: center;
@@ -37,7 +32,7 @@ const UserDiv = styled.div`
   }
 `
 
-const AboutMeText = styled.div`
+export const AboutMeText = styled.div`
   display: flex;
   padding: 2rem;
 
@@ -48,7 +43,7 @@ const AboutMeText = styled.div`
   }
 `
 
-const Heading = styled.p`
+export const Heading = styled.p`
   font-size: 1.5rem;
   font-weight: bold;
   padding: 0 2rem;
@@ -60,15 +55,15 @@ const Heading = styled.p`
   }
 `
 
-const Skills = styled.div`
+export const Skills = styled.div`
   width: 100%;
 `
 
-const Info = styled.div`
+export const Info = styled.div`
   text-align: left;
 `
 
-const Paragraph = styled.p`
+export const Paragraph = styled.p`
   padding: 0.5rem 2rem;
   margin: 0;
   font-size: 1.2rem;
@@ -78,7 +73,7 @@ const Paragraph = styled.p`
   }
 `
 
-const Image = styled.img`
+export const Image = styled.img`
   width: 10vw;
   margin: 1rem;
   border-radius: 50%;
@@ -100,35 +95,3 @@ const Image = styled.img`
     width: 33vw;
   }
 `
-
-const About = () => (
-  <Section heading='About me'>
-    <AboutMeContainer>
-      <UserDiv>
-        <Image src={MyPic} alt='author picture' />
-      </UserDiv>
-      <AboutMeText>
-        <Info>
-          <Heading>Hello, I'm Marina!</Heading>
-          <Paragraph>
-            I am a <strong>Fullstack Developer @ Integrify</strong> with
-            background in Architecture currently living in
-            <strong>Berlin, Germany</strong>.
-          </Paragraph>
-          <Paragraph>
-            Do you want to work with me? Integrify provides consulting and
-            recruitment services for companies. Let’s talk more via Joona
-            Ohra-aho: joona@integrify.io / +358 400 579 588.
-          </Paragraph>
-          <Paragraph>You can check a few of my projects bellow.</Paragraph>
-        </Info>
-        <Skills>
-          <Heading>Main skills</Heading>
-          <SkillsContainer />
-        </Skills>
-      </AboutMeText>
-    </AboutMeContainer>
-  </Section>
-)
-
-export default About
