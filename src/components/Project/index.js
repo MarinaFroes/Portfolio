@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 
 import {
   ProjectSection,
@@ -9,46 +9,39 @@ import {
   Link,
 } from './styles'
 
-class Project extends React.Component {
-  state = {
-    isVisible: false,
+const Project = ({ src, page, code, title, technologies }) => {
+  const [isVisible, setIsVisible] = useState(false)
+
+  const toggleVisibility = (trueOrFalse) => {
+    setIsVisible(trueOrFalse)
   }
 
-  toggleVisibility(trueOrFalse) {
-    this.setState({
-      isVisible: trueOrFalse,
-    })
-  }
-
-  render() {
-    const { src, project, code, title, technologies } = this.props
-    const { isVisible } = this.state
-
-    return (
-      <ProjectSection
-        imageSrc={src}
-        onMouseEnter={() => this.toggleVisibility(true)}
-        onMouseLeave={() => this.toggleVisibility(false)}
-      >
-        <AdditionalInfo isVisible={isVisible}>
-          <ProjectTitle>{title}</ProjectTitle>
-          <Technologies>
-            <strong>Technologies:</strong> {technologies}
-          </Technologies>
-          <LinksContainer>
-            {project && (
-              <Link href={project} target='_blank' rel='noopener noreferrer'>
-                View Page
-              </Link>
-            )}
+  return (
+    <ProjectSection
+      imageSrc={src}
+      onMouseEnter={() => toggleVisibility(true)}
+      onMouseLeave={() => toggleVisibility(false)}
+    >
+      <AdditionalInfo isVisible={isVisible}>
+        <ProjectTitle>{title}</ProjectTitle>
+        <Technologies>
+          <strong>Technologies:</strong> {technologies}
+        </Technologies>
+        <LinksContainer>
+          {page && (
+            <Link href={page} target='_blank' rel='noopener noreferrer'>
+              View Page
+            </Link>
+          )}
+          {code && (
             <Link href={code} target='_blank' rel='noopener noreferrer'>
               View Code
             </Link>
-          </LinksContainer>
-        </AdditionalInfo>
-      </ProjectSection>
-    )
-  }
+          )}
+        </LinksContainer>
+      </AdditionalInfo>
+    </ProjectSection>
+  )
 }
 
 export default Project

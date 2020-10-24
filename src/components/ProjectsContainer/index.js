@@ -4,7 +4,6 @@ import ScrollAnimation from 'react-animate-on-scroll'
 import Project from '../Project'
 import Section from '../Section'
 import { ProjectsSection } from './styles'
-import { MY_GITHUB, MY_PROFILE } from '../../utils/links'
 
 const ProjectsContainer = ({ projectInfo, heading }) => (
   <Section heading={heading}>
@@ -20,8 +19,8 @@ const ProjectsContainer = ({ projectInfo, heading }) => (
             title={project.title}
             src={project.src}
             alt={project.alt}
-            project={project.isDeployed ? `${MY_GITHUB}${project.link}` : null}
-            code={`${MY_PROFILE}${project.link}`}
+            code={project.code}
+            page={project.page}
             technologies={project.technologies}
           />
         </ScrollAnimation>

@@ -11,7 +11,7 @@ export const LINKS = [
     label: "Contact",
     href: "#contact"
   }
-];
+]
 
 export const MY_LINKEDIN = 'https://www.linkedin.com/in/marina-froes-a-costa/'
 export const MY_GITHUB = 'https://github.com/MarinaFroes'
