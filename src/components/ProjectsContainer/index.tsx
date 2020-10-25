@@ -4,8 +4,9 @@ import ScrollAnimation from 'react-animate-on-scroll'
 import Project from '../Project'
 import Section from '../Section'
 import { ProjectsSection } from './styles'
+import { ProjectsContainerProps } from '../../types'
 
-const ProjectsContainer = ({ projectInfo, heading }) => (
+const ProjectsContainer = ({ projectInfo, heading }: ProjectsContainerProps) => (
   <Section heading={heading}>
     <ProjectsSection>
       {projectInfo.map((project, index) => (
@@ -18,9 +19,8 @@ const ProjectsContainer = ({ projectInfo, heading }) => (
           <Project
             title={project.title}
             src={project.src}
-            alt={project.alt}
-            code={project.code}
-            page={project.page}
+            code={project.code || ''}
+            page={project.page || ''}
             technologies={project.technologies}
           />
         </ScrollAnimation>

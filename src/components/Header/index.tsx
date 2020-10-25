@@ -23,7 +23,6 @@ const HeaderContainer = () => (
       <StyledImg
         src={BgImg640}
         srcSet={`${BgImg1920} 1920w, ${BgImg1600} 1600w, ${BgImg1440} 1440w, ${BgImg1366} 1366w, ${BgImg1024} 1024w, ${BgImg768} 768w, ${BgImg640} 640w`}
-        size='100vw'
         alt=''
       />
       <HeadingContainer>

@@ -1,9 +1,9 @@
 import React from 'react'
-import PropTypes from 'prop-types'
 
 import { InfoContainer, InfoTitle, Image, InfoSubtitle } from './styles'
+import { InfoProps } from '../../types'
 
-const Info = ({ title, src, alt, subtitle }) => (
+const Info = ({ title, src, alt, subtitle }: InfoProps) => (
   <InfoContainer>
     <InfoTitle>{title}</InfoTitle>
     <Image src={src} alt={alt} />
@@ -12,10 +12,3 @@ const Info = ({ title, src, alt, subtitle }) => (
 )
 
 export default Info
-
-Info.propTypes = {
-  title: PropTypes.string.isRequired,
-  src: PropTypes.string.isRequired,
-  alt: PropTypes.string,
-  subtitle: PropTypes.string.isRequired,
-}

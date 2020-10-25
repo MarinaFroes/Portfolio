@@ -1,8 +1,10 @@
 import styled from 'styled-components'
 
+import { ProjectSectionProps, AdditionalInfoProps } from '../../types'
+
 export const ProjectSection = styled.div`
   display: flex;
-  background-image: url(${props => props.imageSrc || 'https://dummyimage.com/740x420/e6e6e6/000000&text=no+image+'});
+  background-image: url(${(props: ProjectSectionProps) => props.imageSrc || 'https://dummyimage.com/740x420/e6e6e6/000000&text=no+image+'});
   background-position: center;
   background-size: cover;
   width: 28rem;
@@ -33,7 +35,7 @@ export const AdditionalInfo = styled.div`
   text-align: center;
   background-color: #fff;
   opacity: 0.90;
-  visibility: ${props => props.isVisible ? 'visible' : 'hidden'};
+  visibility: ${(props: AdditionalInfoProps) => props.isVisible ? 'visible' : 'hidden'};
   width: 15rem;
   height: 15rem;
   font-size: 1.2rem;

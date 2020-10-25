@@ -1,9 +1,9 @@
 import React from 'react'
-import PropTypes from 'prop-types'
 
 import { Icon } from './styles'
+import { SocialMediaProps } from '../../types'
 
-const SocialMedia = ({ icon, address }) => (
+const SocialMedia = ({ icon, address }: SocialMediaProps) => (
   <Icon
     href={address}
     className='social-media'
@@ -15,8 +15,3 @@ const SocialMedia = ({ icon, address }) => (
 )
 
 export default SocialMedia
-
-SocialMedia.propTypes = {
-  icon: PropTypes.object,
-  address: PropTypes.string.isRequired,
-}

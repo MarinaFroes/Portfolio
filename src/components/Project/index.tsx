@@ -8,11 +8,12 @@ import {
   Technologies,
   Link,
 } from './styles'
+import { ProjectProps } from '../../types'
 
-const Project = ({ src, page, code, title, technologies }) => {
+const Project = ({ src, page, code, title, technologies }: ProjectProps) => {
   const [isVisible, setIsVisible] = useState(false)
 
-  const toggleVisibility = (trueOrFalse) => {
+  const toggleVisibility = (trueOrFalse: boolean) => {
     setIsVisible(trueOrFalse)
   }
 
