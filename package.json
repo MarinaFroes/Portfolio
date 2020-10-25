@@ -4,6 +4,11 @@
   "private": true,
   "homepage": "https://MarinaFroes.github.io/Portfolio",
   "dependencies": {
+    "@types/jest": "^26.0.15",
+    "@types/node": "^14.14.2",
+    "@types/react": "^16.9.53",
+    "@types/react-dom": "^16.9.8",
+    "@types/styled-components": "^5.1.4",
     "animate.css": "^3.7.2",
     "gh-pages": "^2.0.1",
     "prop-types": "^15.7.2",
@@ -13,7 +18,8 @@
     "react-icons": "^3.7.0",
     "react-scripts": "3.0.1",
     "react-timeline-scribble": "^1.0.14",
-    "styled-components": "^4.2.0"
+    "styled-components": "^4.2.0",
+    "typescript": "^4.0.3"
   },
   "scripts": {
     "start": "react-scripts start",

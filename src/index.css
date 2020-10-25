@@ -19,6 +19,10 @@ code {
     monospace;
 }
 
+html {
+  font-size: 1em;
+}
+
 @media only screen and (max-width: 1366px) {
   html {
     font-size: 0.9em;
