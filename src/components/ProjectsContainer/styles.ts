@@ -7,6 +7,6 @@ export const ProjectsSection = styled.div`
   align-items: center;
   width: 100%;
   padding: 0 2rem;
-  max-width: 1200px;
+  max-width: 1400px;
   margin: 2rem auto 0 auto;
 `;
