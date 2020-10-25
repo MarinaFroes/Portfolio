@@ -5,6 +5,7 @@ export const AboutMeContainer = styled.div`
   border-radius: 0.5rem;
   display: flex;
   width: 90%;
+  max-width: 1200px;
   margin-top: 2rem;
   margin-left: auto;
   margin-right: auto;
