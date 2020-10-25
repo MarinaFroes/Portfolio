@@ -20,35 +20,23 @@ code {
 }
 
 html {
-  font-size: 1em;
-}
-
-@media only screen and (max-width: 1366px) {
-  html {
-    font-size: 0.9em;
-  }
+  font-size: 16px;
 }
 
 @media only screen and (max-width: 1080px) {
   html {
-    font-size: 0.8em;
-  }
-}
-
-@media only screen and (max-width: 800px) {
-  html {
-    font-size: 0.7em;
+    font-size: 14px;
   }
 }
 
 @media only screen and (max-width: 600px) {
   html {
-    font-size: 0.6em;
+    font-size: 12px;
   }
 }
 
 @media only screen and (max-width: 400px) {
   html {
-    font-size: 0.5em;
+    font-size: 10px;
   }
 }

@@ -6,4 +6,5 @@ export const ProjectsSection = styled.div`
   justify-content: center;
   width: 100%;
   margin-top: 2rem;
+  padding: 0 2rem;
 `;

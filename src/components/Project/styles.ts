@@ -8,22 +8,9 @@ export const ProjectSection = styled.div`
   background-position: center;
   background-size: cover;
   width: 28rem;
-  
   height: auto;
   margin: 0;
   border: 1px solid #e6e6e6;
-  
-  @media only screen and (max-width: 700px){
-    width: 25rem;
-  }
-
-  @media only screen and (max-width: 500px){
-    width: 19rem;
-  }
-
-  @media only screen and (max-width: 400px){
-    width: 16rem;
-  }
 `;
 
 export const AdditionalInfo = styled.div`
