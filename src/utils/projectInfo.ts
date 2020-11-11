@@ -10,9 +10,9 @@ export const PROJECTS_INFO: ProjectInfo = [
   {
     title: 'Towel Shop',
     src: `${TowelShop}`,
-    code: null,
+    code: 'https://github.com/MarinaFroes/towelshop-frontend',
     page: 'https://sharp-curie-5f9df0.netlify.app/',
-    technologies: 'React.js, Redux, Typescript, Node.js, MongoDB, Jest',
+    technologies: 'React.js, Redux, Typescript, Node.js, MongoDB, Jest, docker',
   },
   {
     title: 'Event Planner',
